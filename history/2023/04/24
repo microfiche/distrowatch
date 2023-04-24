@@ -1,0 +1,2729 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<title>DistroWatch.com: Put the fun back into computing. Use Linux, BSD.</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="News and feature lists of Linux and BSD distributions." />
+<meta name="keywords" content="distrowatch, linux, android, bsd, unix, distro, distros, distributions, ubuntu, debian, suse, opensuse, fedora, red hat, centos, mageia, knoppix, gentoo, slackware, freebsd, openbsd" />
+<meta name="author" content="DistroWatch" />
+<!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold,bolditalic&amp;subset=Latin" />-->
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest News" href="news/dw.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest Distributions" href="news/dwd.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest Packages" href="news/dwp.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest Ratings" href="news/ratings.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: DistroWatch Weekly" href="news/dww.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest DWW Podcast (MP3)" href="news/podcast.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest DWW Podcast (OGG)" href="news/oggcast.xml" />
+<link rel="icon" href="favicon.ico" type="image/ico" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<!-- Media.net header bidding code -->
+<script type="text/javascript">
+    window._mNHandle = window._mNHandle || {};
+    window._mNHandle.queue = window._mNHandle.queue || [];
+    medianet_versionId = "3121199";
+</script>
+<script src="https://contextual.media.net/dmedianet.js?cid=8CUK7Z630" async="async"></script>
+<script type = "text/javascript">
+(function () {
+window.advBidxc = window.advBidxc || {};
+window.advBidxc.customerId = "8CU7XD8P5"; // Customer ID
+window.advBidxc.domain = window.location.hostname;
+window.advBidxc.version = 5.1;
+window.advBidxc.startTime = new Date().getTime();
+function loadScript(tagSrc) {
+var scriptTag = document.createElement('script'),
+placeTag = document.getElementsByTagName("script")[0];
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = tagSrc;
+placeTag.parentNode.insertBefore(scriptTag, placeTag);}
+var mnSrc = 'https://hbx.media.net/bidexchange.js?cid=' +
+window.advBidxc.customerId +
+"&version=" + window.advBidxc.version + '&dn=' +
+window.advBidxc.domain;
+loadScript(mnSrc); })();
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2079470915748165"
+     crossorigin="anonymous"></script>
+<!-- Add sovrn's code -->
+<!-- //Connect Container: Distrowatch -->
+<script src="//get.s-onetag.com/f31b0467-497f-4b91-86b5-6219f9a80f5e/tag.min.js" async defer></script>
+<script defer src="https://cdn.unblockia.com/h.js"></script>
+<!-- 
+<script type="text/javascript">window.cookieconsent_options = {"message":"This website uses cookies to customize your experience. Third-party cookies may also be used by our advertisers.","dismiss":"Accept","learnMore":"Learn more","link":"https://distrowatch.com/dwres.php?resource=privacy","theme":"dark-bottom"};</script><script type="text/javascript" src="js/cookieconsent.latest.min.js"></script>--> 
+<link rel="stylesheet" href="css/news.css" type="text/css" /><style type="text/css"></style>
+</head>
+<body bcolor="#ffffff">
+<table style="width: 100%; border: 2px silver groove; background-color: #f6edc8; table-layout: auto">
+  <tr>
+    <td style="width: 468px; text-align: left; border: 0px">
+      <table style="width: 468px">
+        <tr>
+        <a href="./"><img src="images/cpxtu/dwbanner.png" border="0" title="DistroWatch.com. Put the fun back into computing, use Linux, BSD." /></a>
+        </tr>
+        <tr>
+          <td style="border: 0px; width: 230px; text-align: center">
+            <form style="height: 1%" action="table.php" method="get">
+            <input style="width: 160px; font-size: 12px"; type="text" name="distribution" value="Type Distribution Name" onfocus="value=''" maxlength="36" />
+            <input style="width: 50px" type="submit" value="Go" />
+            </form>
+          </td>
+          <td style="border: 0px; width: 230px; text-align: center">
+            <form style="height: 1%" action="table.php" method="get">
+            <select style="width: 160px" name="distribution" onchange="location = this.options[this.selectedIndex].value;">
+<option selected value="">Select Distribution</option>
+<option value="3cx">3CX</option><option value="4mlinux">4MLinux</option><option value="absolute">Absolute</option><option value="academix">AcademiX</option><option value="alma">AlmaLinux</option><option value="alpine">Alpine</option><option value="alt">ALT</option><option value="antix">antiX</option><option value="arch">Arch</option><option value="archbang">ArchBang</option><option value="archcraft">Archcraft</option><option value="archlabs">ArchLabs</option><option value="archman">Archman</option><option value="archstrike">ArchStrike</option><option value="arco">ArcoLinux</option><option value="armbian">Armbian</option><option value="artix">Artix</option><option value="athena">Athena</option><option value="avlinux">AV Linux</option><option value="backbox">BackBox</option><option value="baruwa">Baruwa</option><option value="batocera">Batocera</option><option value="bedrock">Bedrock</option><option value="berry">Berry</option><option value="bicom">Bicom</option><option value="biglinux">BigLinux</option><option value="blackarch">BlackArch</option><option value="blendos">blendOS</option><option value="blueonyx">BlueOnyx</option><option value="bluestar">Bluestar</option><option value="bodhi">Bodhi</option><option value="boss">BOSS</option><option value="bros">Br OS</option><option value="bsdrp">BSDRP</option><option value="bunsenlabs">BunsenLabs</option><option value="cachyos">CachyOS</option><option value="caine">CAINE</option><option value="calculate">Calculate</option><option value="canaima">Canaima</option><option value="centos">CentOS</option><option value="clear">Clear</option><option value="clearos">ClearOS</option><option value="clonezilla">Clonezilla</option><option value="crux">CRUX</option><option value="daphile">Daphile</option><option value="debian">Debian</option><option value="skolelinux">Debian Edu</option><option value="deepin">deepin</option><option value="devuan">Devuan</option><option value="diamond">Diamond</option><option value="dietpi">DietPi</option><option value="dragonflybsd">DragonFly</option><option value="dynfi">DynFi</option><option value="easynas">EasyNAS</option><option value="easyos">EasyOS</option><option value="edubuntu">Edubuntu</option><option value="elearnix">eLearnix</option><option value="elementary">elementary</option><option value="elive">Elive</option><option value="emmabuntus">Emmabuntüs</option><option value="endeavour">EndeavourOS</option><option value="endian">Endian</option><option value="endless">Endless</option><option value="eurolinux">EuroLinux</option><option value="exe">Exe</option><option value="exherbo">Exherbo</option><option value="extix">ExTiX</option><option value="fatdog">Fatdog64</option><option value="fedora">Fedora</option><option value="ferenos">Feren</option><option value="finnix">Finnix</option><option value="freebsd">FreeBSD</option><option value="freedombox">FreedomBox</option><option value="freepbx">FreePBX</option><option value="freespire">Freespire</option><option value="fuguita">FuguIta</option><option value="funtoo">Funtoo</option><option value="garuda">Garuda</option><option value="gecko">Gecko</option><option value="gentoo">Gentoo</option><option value="ghostbsd">GhostBSD</option><option value="gnoppix">Gnoppix</option><option value="gparted">GParted</option><option value="grml">Grml</option><option value="guixsd">Guix System</option><option value="haiku">Haiku</option><option value="hamonikr">HamoniKR</option><option value="hardenedbsd">HardenedBSD</option><option value="hellosystem">hellosystem</option><option value="hyperbola">Hyperbola</option><option value="ipfire">IPFire</option><option value="kaisen">Kaisen</option><option value="kali">Kali</option><option value="kanotix">KANOTIX</option><option value="kaos">KaOS</option><option value="karoshi">Karoshi</option><option value="kdeneon">KDE neon</option><option value="kiss">KISS</option><option value="kodachi">Kodachi</option><option value="kolibri">KolibriOS</option><option value="kubuntu">Kubuntu</option><option value="kwort">Kwort</option><option value="lakka">Lakka</option><option value="legacy">Legacy</option><option value="lfs">LFS</option><option value="libreelec">LibreELEC</option><option value="linspire">Linspire</option><option value="linuxfx">Linuxfx</option><option value="lite">Lite</option><option value="liveraizo">Live Raizo</option><option value="lliurex">LliureX</option><option value="lubuntu">Lubuntu</option><option value="lxle">LXLE</option><option value="mabox">Mabox</option><option value="mageia">Mageia</option><option value="maid">mAid</option><option value="makulu">MakuluLinux</option><option value="manjaro">Manjaro</option><option value="max">MAX</option><option value="midnightbsd">MidnightBSD</option><option value="mint">Mint</option><option value="miracle">MIRACLE</option><option value="murena">Murena</option><option value="mx">MX Linux</option><option value="navy">Navy</option><option value="neptune">Neptune</option><option value="netbsd">NetBSD</option><option value="netrunner">Netrunner</option><option value="nexentastor">NexentaStor</option><option value="nitrux">Nitrux</option><option value="nixos">NixOS</option><option value="nobara">Nobara</option><option value="nomadbsd">NomadBSD</option><option value="nova">Nova</option><option value="nst">NST</option><option value="nutyx">NuTyX</option><option value="ob2d">OB2D</option><option value="obarun">Obarun</option><option value="omarine">Omarine</option><option value="omoikane">Omoikane</option><option value="openbsd">OpenBSD</option><option value="openindiana">OpenIndiana</option><option value="openmamba">openmamba</option><option value="openmandriva">OpenMandriva</option><option value="openmediavault">OpenMediaVault</option><option value="opensuse">openSUSE</option><option value="opnsense">OPNsense</option><option value="oracle">Oracle</option><option value="osgeo">OSGeoLive</option><option value="osmc">OSMC</option><option value="ovios">OviOS</option><option value="pakos">PakOS</option><option value="paldo">paldo</option><option value="parabola">Parabola</option><option value="pardus">Pardus</option><option value="parrot">Parrot</option><option value="partedmagic">Parted Magic</option><option value="pclinuxos">PCLinuxOS</option><option value="pearl">Pearl</option><option value="pentoo">Pentoo</option><option value="peppermint">Peppermint</option><option value="peropesis">Peropesis</option><option value="pfsense">pfSense</option><option value="photonos">Photon</option><option value="pisi">Pisi</option><option value="plamo">Plamo</option><option value="pld">PLD</option><option value="plop">Plop</option><option value="popos">Pop!_OS</option><option value="porteus">Porteus</option><option value="porteuskiosk">Porteus Kiosk</option><option value="postmarketos">postmarketOS</option><option value="primtux">PrimTux</option><option value="proxmox">Proxmox</option><option value="puppy">Puppy</option><option value="pureos">PureOS</option><option value="q4os">Q4OS</option><option value="qubes">Qubes</option><option value="raspios">RasPiOS</option><option value="rasplex">RasPlex</option><option value="rds">RDS</option><option value="reactos">ReactOS</option><option value="rebeccablackos">RebeccaBlackOS</option><option value="rebornos">RebornOS</option><option value="recalbox">Recalbox</option><option value="redhat">Red Hat</option><option value="redcore">Redcore</option><option value="redo">Redo</option><option value="refracta">Refracta</option><option value="regata">Regata</option><option value="rescatux">Rescatux</option><option value="rescuezilla">Rescuezilla</option><option value="risc">RISC</option><option value="risios">risiOS</option><option value="robolinux">Robolinux</option><option value="rockstor">Rockstor</option><option value="rocky">Rocky</option><option value="rosa">ROSA</option><option value="rss">RSS</option><option value="runtu">Runtu</option><option value="salient">Salient</option><option value="salix">Salix</option><option value="selks">SELKS</option><option value="septor">Septor</option><option value="sharklinux">Shark</option><option value="siduction">siduction</option><option value="slackel">Slackel</option><option value="slackware">Slackware</option><option value="slax">Slax</option><option value="slint">Slint</option><option value="slitaz">SliTaz</option><option value="smartos">SmartOS</option><option value="smeserver">SME Server</option><option value="snal">Snal</option><option value="solaris">Solaris</option><option value="solydxk">SolydXK</option><option value="sparky">SparkyLinux</option><option value="spiral">Spiral</option><option value="springdale">Springdale</option><option value="star">Star</option><option value="supergrub">Super Grub2</option><option value="sle">SUSE</option><option value="swift">Swift</option><option value="syslinuxos">SysLinuxOS</option><option value="systemrescue">SystemRescue</option><option value="t2">T2</option><option value="tails">Tails</option><option value="thinstation">Thinstation</option><option value="tinycore">Tiny Core</option><option value="trisquel">Trisquel</option><option value="truenas">TrueNAS</option><option value="turnkey">TurnKey</option><option value="tuxedo">TUXEDO</option><option value="ubos">UBOS</option><option value="ubports">UBports</option><option value="ubuntu">Ubuntu</option><option value="ubuntubudgie">Ubuntu Budgie</option><option value="ubuntuce">Ubuntu Christian</option><option value="ubuntucinnamon">Ubuntu Cinnamon</option><option value="ubuntudp">Ubuntu DP</option><option value="ubuntukylin">Ubuntu Kylin</option><option value="ubuntumate">Ubuntu MATE</option><option value="ubuntustudio">Ubuntu Studio</option><option value="ubuntuunity">Ubuntu Unity</option><option value="ufficiozero">Ufficio Zero</option><option value="ultimate">Ultimate</option><option value="ultramarine">Ultramarine</option><option value="univention">Univention</option><option value="untangle">Untangle</option><option value="uruk">Uruk</option><option value="vanilla">Vanilla</option><option value="venom">Venom</option><option value="vine">Vine</option><option value="void">Void</option><option value="volumio">Volumio</option><option value="voyager">Voyager</option><option value="vyos">VyOS</option><option value="vz">VzLinux</option><option value="wattos">wattOS</option><option value="whonix">Whonix</option><option value="wifislax">Wifislax</option><option value="xero">XeroLinux</option><option value="xigmanas">XigmaNAS</option><option value="xstreamos">XStreamOS</option><option value="xubuntu">Xubuntu</option><option value="yunohost">YunoHost</option><option value="zenwalk">Zenwalk</option><option value="zephix">Zephix</option><option value="zevenet">Zevenet</option><option value="zorin">Zorin</option>            </select>
+            <input style="width: 50px" type="submit" value="Go" />
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 0px; width: 230px; text-align: center">
+<form target="_blank" method="get" id="search" action="https://duckduckgo.com/">
+  <div style="text-align: center">
+  <input type="hidden" name="sites" value="distrowatch.com"/>
+  <input type="hidden" name="k7" value="#fdffe3"/>
+  <input type="hidden" name="k1" value="-1"/>
+  <input style="width: 160px; font-size: 12px" type="text" name="q" size="24" onfocus="value=''" placeholder="DuckDuckGo Site Search"/>
+  <input style="width: 50px" type="submit" name="sa" value="Go" />
+  </div>
+</form>
+          </td>
+          <td style="border: 0px; width: 230px; text-align: center">
+            <form style="height: 1%" action="random.php">
+            <input style="width: 214px; vertical-align: top" type="submit" value="Random Distribution" />
+            </form>
+          </td>
+        </tr>
+      </table>    </td>
+    <td style="text-align: left; vertical-align: top; border: 0px; width: 100%">
+      <table style="table-layout: auto; width: 100%; column-span: 3;">
+        <tr>
+          <td style="border: 0px; text-align: right; width: 100%"><a href="https://distrowatch.com/?language=EN"><img style="vertical-align: middle" src="images/lbxfnbfzbi/en.png" border="0" title="English" /></a> &bull; <a href="https://distrowatch.com/?language=ES"><img style="vertical-align: middle" src="images/lbxfnbfzbi/es.png" border="0" title="Spanish" /></a> &bull; <a href="https://distrowatch.com/?language=FR"><img style="vertical-align: middle" src="images/lbxfnbfzbi/fr.png" border="0" title="French" /></a> &bull; <a href="https://distrowatch.com/?language=DE"><img style="vertical-align: middle" src="images/lbxfnbfzbi/de.png" border="0" title="German" /></a> &bull; <a href="https://distrowatch.com/?language=PT"><img style="vertical-align: middle" src="images/lbxfnbfzbi/pt.png" border="0" title="Portuguese" /></a> &bull; <a href="https://distrowatch.com/?language=SL"><img style="vertical-align: middle" src="images/lbxfnbfzbi/sl.png" border="0" title="Slovenian" /></a> &bull; <a href="https://distrowatch.com/?language=JP"><img style="vertical-align: middle" src="images/lbxfnbfzbi/jp.png" border="0" title="Japanese" /></a> &bull; <a href="https://distrowatch.com/?language=TW"><img style="vertical-align: middle" src="images/lbxfnbfzbi/tw.png" border="0" title="Chinese Traditional" /></a>          </td>
+        </tr>
+      </table>
+      <table style="table-layout: auto; width: 100%">
+        <tr>
+          <th class="NavMenu">
+            &nbsp;&bull; <a href="./">Home Page</a>, <a href="/dwres.php?resource=headlines">Headlines</a><br />
+            &nbsp;&bull; <a href="weekly.php?issue=current">DW Weekly</a>, <a href="weekly.php?issue=current&amp;mode=67#comments">Comments</a><br />
+            &nbsp;&bull; <a href="packages.php">Packages</a>, 
+            <a href="dwres.php?resource=package-management">Package Management</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=glossary">Glossary</a>,             <a href="dwres.php?resource=faq">FAQ</a>,             <a href="index.php?mobile=1">Mobile Site</a>
+          </th>
+          <th class="NavMenu">
+            &nbsp;&bull; <a href="search.php">Search</a>, <a href="dwres.php?resource=sitemap">Sitemap</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=major">Major Distributions</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=submit">Submit Distribution</a><br />
+            &nbsp;&bull; <a href="weekly.php?issue=current#upcoming">Upcoming Releases</a><br />
+          </th>
+          <th class="NavMenu">
+            &nbsp;&bull; <a href="dwres.php?resource=about">About DistroWatch</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=popularity">Page Hit Ranking</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=advertise">Advertise</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=bittorrent">Torrent Downloads</a><br />
+          </th>
+        </tr>
+        <tr>
+<table style="width: 100%; border: none; background-color: #f6efc8">
+  <tr>
+    <td class="NewsLogo" style="border: none; text-align: right; background-color: #f6efc8; width: 100%">
+<span style="vertical-align: bottom; color: silver">DistroWatch.com is sponsored by </span><a href="https://www.3cx.com/"><img style="vertical-align: middle" src="images/k/3cx-19.png" border="0" alt="3CX - Software Based VoIP IP PBX / PABX" title="3CX - Software Based VoIP IP PBX / PABX"></a>    </td>
+  </tr>
+</table>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<link rel="stylesheet" href="/css/nav-menu.css" type="text/css" />
+
+<ul class="dropmenu">
+  <li class="dropdown">
+     <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(1)">News/Opinions/Reviews &#9660;</a>
+     <div class="dropdown-content" id="myDropdown1">
+      <a href="/">Release Announcements</a>
+      <a href="dwres.php?resource=headlines">News and Headlines</a>
+      <a href="weekly.php?issue=current">DW Weekly</a>
+      <a href="weekly.php">DW Weekly / Review Archive</a>
+      <a href="dwres.php?resource=article-search">News/Article Search</a>
+      <a href="weekly.php?issue=current#upcoming">Upcoming Releases</a>
+      <a href="polls.php">Opinion Polls</a>
+      <a href="dwres.php?resource=ratings">Visitor Ratings &amp; Reviews</a>
+      <a href="dwres.php?resource=ranking">Project Rankings by Ratings</a>
+      <a href="dwres.php?resource=podcast-mobile">Podcasts, Newsletters &amp; Reviews</a>
+    </div>
+
+  </li>
+  <li class="dropdown">
+     <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(2)">Packages &#9660;</a>
+     <div class="dropdown-content" id="myDropdown2">
+      <a href="packages.php">Packages We Track</a>
+      <a href="dwres.php?resource=package-management">Package Management</a>
+      <a href="dwres.php?resource=headlines">Package Releases</a>
+      <a href="dwres.php?resource=compare-packages">Compare Packages Across Distros</a>
+      <a href="dwres.php?resource=package-in-distro">Show package versions for all distros</a>
+    </div>
+
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(3)">Find/Submit Distro &#9660;</a>
+    <div class="dropdown-content" id="myDropdown3">
+      <a href="search.php">Search For Distro</a>
+      <a href="search.php#advanced">Search For Distro - Advanced</a>
+      <a href="dwres.php?resource=major">Major Distributions</a>
+      <a href="new">Waiting List</a>
+      <a href="dwres.php?resource=submit">Submit Distribution</a>
+      <a href="dwres.php?resource=discontinued">Discontinued Distributions</a>
+      <a href="random.php">Random Distribution</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(4)">Tutorials &amp; Learning &#9660;</a>
+    <div class="dropdown-content" id="myDropdown4">
+      <a href="dwres.php?resource=article-search">Search For An Article</a>
+      <a href="qanda.php">Questions and Answers Columns</a>
+      <a href="tips.php">Tips and Tricks Columns</a>
+      <a href="tips.php">Myths And Misunderstandings Columns</a>
+      <a href="dwres.php?resource=glossary">Glossary</a>
+      <a href="dwres.php?resource=man-pages">Simplified Manual Pages</a>
+    </div>
+  </li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(5)">Related Resources &#9660;</a>
+    <div class="dropdown-content" id="myDropdown5">
+      <a href="dwres.php?resource=links">Other Operating Systems</a>
+      <a href="dwres.php?resource=hardware">Compatible Hardware</a>
+      <a href="dwres.php?resource=security">Security Advisories</a>
+      <a href="dwres.php?resource=bittorrent">Torrent Downloads</a>
+      <a href="dwres.php?resource=upload-torrent">Upload Torrents</a>
+      <a href="dwres.php?resource=keys">Distro Verification Keys</a>
+      <a href="dwres.php?resource=family-tree">Visual Distro Family Tree</a>
+      <a href="dwres.php?resource=faq#lugs">Linux User Groups</a>
+    </div>
+  </li>
+
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(6)">DistroWatch.com &#9660;</a>
+    <div class="dropdown-content" id="myDropdown6">
+      <a href="dwres.php?resource=about">About DistroWatch</a>
+      <a href="dwres.php?resource=contact">Contact Us</a>
+      <a href="dwres.php?resource=popularity">Page Hit Ranking</a>
+      <a href="dwres.php?resource=trending">Page Hit Trends</a>
+      <a href="dwres.php?resource=advertise">Advertise</a>
+      <a href="dwres.php?resource=faq">Frequently Asked Questions</a>
+      <a href="dwres.php?resource=contributing">Contributing</a>
+      <a href="dwres.php?resource=donate">Donate</a>
+      <a href="dwres.php?resource=donations">Our Donations Programme</a>
+    </div>
+  </li>
+
+</ul>
+
+
+<script language="JavaScript">
+<!--
+
+function ClearMenus()
+{
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+    }
+}
+
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function MenuFunction(num) {
+    var full_name = "myDropdown" + num;
+    var already_visible = false;
+
+    if ( document.getElementById(full_name).classList.contains('show') )
+       already_visible = true;
+    ClearMenus();
+    if (already_visible == false)
+       document.getElementById(full_name).classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    ClearMenus();
+  }
+}
+
+// -->
+</script>
+<h2><div id = "mnet_distrowatch_970x90"></div>
+</h2><table style="width: 100%" class="Logo">
+  <tr>
+    <td style="width: 19%; vertical-align: top; border: none">
+<table width="100%">
+  <tr>
+    <th class="Invert">3CX VoIP PBX</th>
+  </tr>
+  <tr>
+    <td class="News" style="text-align: center"><a href="https://www.3cx.com/startup/?src=distrowatch"><img border="0" src="images/k/wnufepugtkti" alt="Get 3CX StartUP today absolutely FREE"></a><br /><br /><a href="https://www.3cx.com/startup/?src=distrowatch">Get 3CX StartUP</a>, your <a href="https://www.3cx.com/phone-system/small-business-phone-system/?src=distrowatch">small business phone system</a><br /><br /></td>
+  </tr>
+</table><br>
+      <table class="News">
+       <tr>
+          <th colspan="3" class="Invert"><a href="news/dwd.xml"><img style="vertical-align: middle" src="images/other/xml.png" border="0"></a>&nbsp;Latest Distributions</th>
+        </tr>
+        <tr>
+          <th class="News">04/23</th>
+          <td class="News"><a href="cachyos">CachyOS</a> &bull; <a href="http://downloads.sourceforge.net/cachyos-arch/cachyos-kde-linux-230423.iso">230423</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/22</th>
+          <td class="News"><a href="blendos">blendOS</a> &bull; <a href="http://downloads.sourceforge.net/blendos/blendOS-2023.04.22-x86_64-gnome.iso">2023.04.22</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/22</th>
+          <td class="News"><a href="bluestar">Bluestar</a> &bull; <a href="http://downloads.sourceforge.net/bluestarlinux/bluestar-linux-6.2.12-2023.04.21-x86_64.iso">6.2.12</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/22</th>
+          <td class="News"><a href="fuguita">FuguIta</a> &bull; <a href="https://jp1.dl.fuguita.org/FuguIta-7.3-amd64-202304221.iso.gz">7.3</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a href="manjaro">Manjaro</a> &bull; <a href="https://download.manjaro.org/kde/22.1.0/manjaro-kde-22.1.0-230421-linux61.iso">22.1.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a href="alma">AlmaLinux</a> &bull; <a href="https://mirror.rnet.missouri.edu/almalinux/8.8-beta/isos/x86_64/AlmaLinux-8.8-beta-1-x86_64-dvd.iso">8.8-beta</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a href="zevenet">Zevenet</a> &bull; <a href="https://osdn.net/projects/zevenet/storage/zevenet-ce_v5.13.3-amd64.iso">5.13.3</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a href="voyager">Voyager</a> &bull; <a href="http://downloads.sourceforge.net/voyagerlive/Voyager-23.04-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="kaos">KaOS</a> &bull; <a href="http://downloads.sourceforge.net/kaosx/KaOS-2023.04-x86_64.iso">2023.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="ubuntustudio">Ubuntu Studio</a> &bull; <a href="https://cdimage.ubuntu.com/ubuntustudio/releases/23.04/release/ubuntustudio-23.04-dvd-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="ubuntukylin">Ubuntu Kylin</a> &bull; <a href="https://cdimage.ubuntu.com/ubuntukylin/releases/23.04/release/ubuntukylin-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="ubuntucinnamon">Ubuntu Cinnamon</a> &bull; <a href="https://cdimage.ubuntu.com/ubuntucinnamon/releases/23.04/release/ubuntucinnamon-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="ubuntuunity">Ubuntu Unity</a> &bull; <a href="https://cdimage.ubuntu.com/ubuntu-unity/releases/23.04/release/ubuntu-unity-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="ubuntubudgie">Ubuntu Budgie</a> &bull; <a href="https://cdimage.ubuntu.com/ubuntu-budgie/releases/23.04/release/ubuntu-budgie-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="xubuntu">Xubuntu</a> &bull; <a href="https://cdimage.ubuntu.com/xubuntu/releases/23.04/release/xubuntu-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="lubuntu">Lubuntu</a> &bull; <a href="https://cdimage.ubuntu.com/lubuntu/releases/23.04/release/lubuntu-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="kubuntu">Kubuntu</a> &bull; <a href="https://cdimage.ubuntu.com/kubuntu/releases/23.04/release/kubuntu-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="ubuntumate">Ubuntu MATE</a> &bull; <a href="https://cdimage.ubuntu.com/ubuntu-mate/releases/23.04/release/ubuntu-mate-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="edubuntu">Edubuntu</a> &bull; <a href="http://cdimage.ubuntu.com/edubuntu/releases/23.04/release/edubuntu-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="ubuntu">Ubuntu</a> &bull; <a href="http://releases.ubuntu.com/lunar/ubuntu-23.04-desktop-amd64.iso">23.04</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="kdeneon">KDE neon</a> &bull; <a href="https://files.kde.org/neon/images/user/20230420-0722/neon-user-20230420-0722.iso">20230420</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a href="smartos">SmartOS</a> &bull; <a href="https://us-east.manta.joyent.com/Joyent_Dev/public/SmartOS/20230420T000908Z/smartos-20230420T000908Z.iso">20230420</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/19</th>
+          <td class="News"><a href="pakos">PakOS</a> &bull; <a href="http://downloads.sourceforge.net/pakos/PakOS2023-04-16.iso">2023-04-16</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/19</th>
+          <td class="News"><a href="tails">Tails</a> &bull; <a href="https://download.tails.net/tails/stable/tails-amd64-5.12/tails-amd64-5.12.iso">5.12</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/19</th>
+          <td class="News"><a href="voyager">Voyager</a> &bull; <a href="http://downloads.sourceforge.net/voyagerlive/Voyager-22.04.2-LTS-amd64.iso">22.04.2</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/18</th>
+          <td class="News"><a href="fedora">Fedora</a> &bull; <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/38/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-38-1.6.iso">38</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/18</th>
+          <td class="News"><a href="ipfire">IPFire</a> &bull; <a href="https://downloads.ipfire.org/releases/ipfire-2.x/2.27-core174/ipfire-2.27-core174-x86_64.iso">2.27-core174</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/17</th>
+          <td class="News"><a href="tuxedo">TUXEDO</a> &bull; <a href="https://os.tuxedocomputers.com/TUXEDO-OS-2-202304171337.iso">2-20230417</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/17</th>
+          <td class="News"><a href="archcraft">Archcraft</a> &bull; <a href="http://downloads.sourceforge.net/archcraft/archcraft-2023.04.17-x86_64.iso">23.04.17</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/17</th>
+          <td class="News"><a href="deepin">deepin</a> &bull; <a href="https://mirrors.up.pt/pub/deepin-cd/20.9/deepin-desktop-community-20.9-amd64.iso">20.9</a></td>
+        </tr>
+      </table>
+      <br>
+<table class="News">
+<tr><td class="Invert"><a href="https://distrowatch.com/news/news-headlines.xml"><img src="images/other/xml.png" border=0 alt="RSS" title="Headlines RSS"></a> Latest Headlines</td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15705">KaOS previews KDE Plasma 6</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15689">FreeBSD publishes quarterly update</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15685">Solus team planning a come-back</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15684">Canonical improves Snap loading times via squashfs handling</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15671">Ubuntu to offer live patching on HWE kernels</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15659">Arch powers the PINE64 PineTab-V</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15635">elementary OS improves sideloading experience</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15622">Fedora plans to provide more encryption by default</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15621">The Mint team is updating icons and themes</a></td></tr>
+<tr><td class="News"><a href="dwres.php?resource=showheadline&story=15617">UBports 20.04 ported to the PinePhone</a></td></tr>
+<td class="News"><center><b><a href="dwres.php?resource=headlines&newstype=news">See more</a></b></center></td>
+</table><br>
+<table width="100%">
+  <tr>
+    <th class="Invert">Sidebar Sponsor</th>
+  </tr>
+  <tr>
+    <td class="News" style="text-align: center; color: silver"><a href="https://www.3cx.com/"><img border="0" src="images/k/vfdmndopce" alt="3CX VoIP Phone System"></a></td>
+  </tr>
+</table><br>
+<table class="News">
+  <tr>
+    <td colspan="2" class="Invert">3CX Links</td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/?src=distrowatch">Easy to use PBX - hosted or self-managed</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/hosted/?src=distrowatch">Hosted PBX Solution</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/phone-system/linux-pbx/?src=distrowatch">Phone system for Linux</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/live-chat/?src=distrowatch">Free Live Chat Solution</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/call-center/?src=distrowatch">Integrated Call Center Software</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/contact-center/?src=distrowatch">Contact Center Software</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/remote-working-apps/?src=distrowatch">Remote Working Apps: iOS or Android</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/video-conferencing/?src=distrowatch">Free Video Conferencing</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/phone-system/download-phone-system/?src=distrowatch">Get a free PBX</a></td>
+  </tr>
+</table><br>
+<table class="News">
+<tr>
+<th colspan="2" class="Invert">VoIP / PBX HowTos by 3CX</th>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/voip-howto/disaster-recovery-plan/?src=distrowatch">Don't Get Caught Out, Make a Disaster Recovery Plan!</a></td>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/unified-communications/live-chat-reports/?src=distrowatch">Essential Live Chat Reports and Statistic</a></td>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/voip-howto/call-fraud/?src=distrowatch">Common Mistakes Which Lead to Call Fraud</a></td>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/news/whatsapp-api-integration/">WhatsApp Business vs 3CX WhatsApp API Integration</a></td>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/unified-communications/startup-killer-features/">3CX StartUP’s 5 Killer Features</a></td>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/unified-communications/dont-be-that-guy-vol-1/">Don’t be “THAT” Guy Vol.1: Keep Complex Credentials</a></td>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/unified-communications/dont-be-that-guy-vol-2/">Don’t be “THAT” Guy Vol.2: Call Fraud</a></td>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/unified-communications/dont-be-that-guy-vol-3/">Don’t be “THAT” Guy Vol.3: Top 4 Security Tips</a></td>
+</tr>
+<tr>
+<th class="News"><img src="images/other/3cx_arrow.png"></th>
+<td class="News"><a href="https://www.3cx.com/blog/unified-communications/dont-be-that-guy-vol-4/">Don’t be “THAT” Guy Vol.4: Monitor Your Instance</a></td>
+</tr>
+</table><br />
+      <table class="News">
+       <tr>
+          <th colspan="3" class="Invert"><a href="news/dwp.xml"><img style="vertical-align: middle" src="images/other/xml.png" border="0"></a>&nbsp;Latest Packages</th>
+        </tr>
+        <tr>
+          <th class="News">04/23</th>
+          <td class="News"><a name="perl"></a><a href="https://www.perl.org">perl</a> &bull; <a href="https://www.cpan.org/src/5.0/perl-5.36.1.tar.gz">5.36.1</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/22</th>
+          <td class="News"><a name="nautilus"></a><a href="https://wiki.gnome.org/Apps/Files">nautilus</a> &bull; <a href="https://download.gnome.org/sources/nautilus/44/nautilus-44.1.tar.xz">44.1</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/22</th>
+          <td class="News"><a name="shotwell"></a><a href="https://wiki.gnome.org/Apps/Shotwell">shotwell</a> &bull; <a href="https://download.gnome.org/sources/shotwell/0.30/shotwell-0.32.0.tar.xz">0.32.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/22</th>
+          <td class="News"><a name="gtk"></a><a href="https://www.gtk.org/">gtk</a> &bull; <a href="https://download.gnome.org/sources/gtk/4.10/gtk-4.10.3.tar.xz">4.10.3</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a name="snort"></a><a href="https://www.snort.org/">snort</a> &bull; <a href="https://snort.org/downloads/snortplus/snort3-3.1.60.0.tar.gz">3.1.60.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a name="opera"></a><a href="https://www.opera.com/">opera</a> &bull; <a href="https://ftp.opera.com/pub/opera/desktop/98.0.4759.6/linux/">98.0.4759.6</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a name="lvm"></a><a href="https://sourceware.org/lvm2/">lvm</a> &bull; <a href="https://sourceware.org/pub/lvm2/LVM2.2.03.21.tgz">2.03.21</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a name="evolution"></a><a href="https://wiki.gnome.org/Apps/Evolution">evolution</a> &bull; <a href="https://download.gnome.org/sources/evolution/3.48/evolution-3.48.1.tar.xz">3.48.1</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/21</th>
+          <td class="News"><a name="calibre"></a><a href="https://calibre-ebook.com/">calibre</a> &bull; <a href="https://download.calibre-ebook.com/6.16.0/calibre-6.16.0.tar.xz">6.16.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="mesa"></a><a href="https://www.mesa3d.org/">mesa</a> &bull; <a href="https://mesa.freedesktop.org/archive/mesa-23.0.3.tar.xz">23.0.3</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="openshot"></a><a href="https://www.openshot.org/">openshot</a> &bull; <a href="https://github.com/OpenShot/openshot-qt/archive/v3.1.1.tar.gz">3.1.1</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="rust"></a><a href="https://www.rust-lang.org/">rust</a> &bull; <a href="https://github.com/rust-lang/rust/archive/1.69.0.tar.gz">1.69.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="wine"></a><a href="https://www.winehq.org/">wine</a> &bull; <a href="https://dl.winehq.org/wine/source/8.0/wine-8.0.1.tar.xz">8.0.1</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="kdevelop"></a><a href="https://www.kdevelop.org/">kdevelop</a> &bull; <a href="https://github.com/KDE/kdevelop/archive/refs/tags/v23.04.0.tar.gz">23.04.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="linux"></a><a href="https://www.kernel.org/">linux</a> &bull; <a href="https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.2.12.tar.xz">6.2.12</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="ktorrent"></a><a href="https://www.kde.org/applications/internet/ktorrent/">ktorrent</a> &bull; <a href="https://github.com/KDE/ktorrent/archive/v23.04.0.tar.gz">23.04.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="pipewire"></a><a href="https://pipewire.org/">pipewire</a> &bull; <a href="https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/0.3.70/pipewire-0.3.70.tar.bz2">0.3.70</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="k3b"></a><a href="https://apps.kde.org/en-gb/k3b/">k3b</a> &bull; <a href="https://github.com/KDE/k3b/archive/v23.04.0.tar.gz">23.04.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/20</th>
+          <td class="News"><a name="NetworkManager"></a><a href="https://wiki.gnome.org/Projects/NetworkManager">NetworkManager</a> &bull; <a href="https://download.gnome.org/sources/NetworkManager/1.40/NetworkManager-1.42.6.tar.xz">1.42.6</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/19</th>
+          <td class="News"><a name="zfs"></a><a href="https://openzfs.org/">zfs</a> &bull; <a href="https://github.com/openzfs/zfs/releases/download/zfs-2.1.11/zfs-2.1.11.tar.gz">2.1.11</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/19</th>
+          <td class="News"><a name="qemu"></a><a href="https://qemu.org/">qemu</a> &bull; <a href="https://wiki.qemu.org/download/qemu-8.0.0.tar.xz">8.0.0</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/19</th>
+          <td class="News"><a name="samba"></a><a href="https://www.samba.org/">samba</a> &bull; <a href="https://us1.samba.org/samba/ftp/stable/samba-4.18.2.tar.gz">4.18.2</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/19</th>
+          <td class="News"><a name="bind"></a><a href="https://www.isc.org/downloads/bind/">bind</a> &bull; <a href="https://ftp.isc.org/isc/bind9/9.18.14/bind-9.18.14.tar.xz">9.18.14</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/18</th>
+          <td class="News"><a name="snapd"></a><a href="https://snapcraft.io/">snapd</a> &bull; <a href="https://github.com/snapcore/snapd/archive/2.59.2.tar.gz">2.59.2</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/18</th>
+          <td class="News"><a name="VirtualBox"></a><a href="https://www.virtualbox.org/">VirtualBox</a> &bull; <a href="https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8.tar.bz2">7.0.8</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/18</th>
+          <td class="News"><a name="coreutils"></a><a href="https://www.gnu.org/software/coreutils/">coreutils</a> &bull; <a href="https://ftp.gnu.org/gnu/coreutils/coreutils-9.3.tar.xz">9.3</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/18</th>
+          <td class="News"><a name="mysql"></a><a href="https://dev.mysql.com/downloads/mysql/">mysql</a> &bull; <a href="https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.33.tar.gz">8.0.33</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/17</th>
+          <td class="News"><a name="docker"></a><a href="https://www.docker.com/community-edition">docker</a> &bull; <a href="https://github.com/moby/moby/archive/refs/tags/v23.0.4.tar.gz">23.0.4</a></td>
+        </tr>
+        <tr>
+          <th class="News">04/17</th>
+          <td class="News"><a name="firefox"></a><a href="https://www.mozilla.org/products/firefox/">firefox</a> &bull; <a href="https://ftp.mozilla.org/pub/firefox/releases/112.0.1/source/firefox-112.0.1.source.tar.xz">112.0.1</a></td>
+        </tr>
+      </table>
+      <br>
+<table class="News">
+<tr>
+  <th colspan="3" class="Invert">Latest Reviews</th>
+</tr>
+<tr>
+  <th class="News">04/24</th>
+  <td class="News"><a href="weekly.php?issue=20230424#qubes">Qubes OS 4.1.2</a></td>
+</tr>
+<tr>
+  <th class="News">04/21</th>
+  <td class="News"><a href="https://www.michlfranken.de/ubuntu-2304-test/">Ubuntu 23.04</a> (de)</td>
+</tr>
+</table><br>
+<table class="News">
+<tr>
+  <th colspan="3" class="Invert">Latest Newsletters</th>
+</tr>
+<tr>
+  <th class="News">04/21</th>
+  <td class="News"><a href="https://www.redhat.com/en/blog/friday-five-april-21-2023-red-hat">Red Hat Friday Five 04/21</a></td>
+</tr>
+<tr>
+  <th class="News">04/20</th>
+  <td class="News"><a href="https://tails.boum.org/news/report_2023_03/">Tails Report 03/2023</a></th>
+</tr>
+<tr>
+  <th class="News">04/17</th>
+  <td class="News"><a href="https://wiki.ubuntu.com/UbuntuWeeklyNewsletter/Issue783">Ubuntu Weekly Newsletter 783</a></td>
+</tr>
+</table><br>
+<!--
+<tr>
+  <th class="News">04/06</th>
+  <td class="News"><a href="https://www.haiku-os.org/blog/waddlesplash/2023-04-06_haiku_activity_contract_report_march_2023/">Haiku Activity Report 2023-03</a></td>
+</tr>
+<tr>
+  <th class="News">04/06</th>
+  <td class="News"><a href="https://blog.elementary.io/updates-for-march-2023/">elementary OS 2023-03</a></td>
+</tr>
+<tr>
+  <th class="News">04/03</th>
+  <td class="News"><a href="https://blog.linuxmint.com/?p=4486">Linux Mint Monthly News 03/2023</a></td>
+</tr>
+<tr>
+  <th class="News">04/03</th>
+  <td class="News"><a href="https://pclosmag.com/html/Issues/202304/index.html">PCLinuxOS Magazine 2023-04</a></td>
+</tr>
+<tr>
+  <th class="News">03/31</th>
+  <td class="News"><a href="https://hardenedbsd.org/article/shawn-webb/2023-03-30/hardenedbsd-march-2023-status-report">HardenedBSD 2023-03</a></td>
+</tr>
+<tr>
+  <th class="News">03/30</th>
+  <td class="News"><a href="https://magpi.raspberrypi.com/downloads/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblFnIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d636c21100c6b51f3adb1790d2d7d9656cc4e6e1/MagPi128.pdf">MagPi 128</a> (pdf)</td>
+</tr>
+<tr>
+  <th class="News">03/19</th>
+  <td class="News"><a href="https://webzine.puffy.cafe/issue-13.html">OpenBSD Webzine 13</a></td>
+</tr>
+<tr>
+  <th class="News">03/16</th>
+  <td class="News"><a href="https://blog.centos.org/2023/03/centos-newsletter-march-2023/">CentOS Community Newsletter March 2023</a></td>
+</tr>
+<tr>
+  <th class="News">03/08</th>
+  <td class="News"><a href="https://forums.funtoo.org/blogs/entry/19-funtoo-newsletter-february-2023/">Funtoo Newsletter 2023-02</a></td>
+</tr>
+<tr>
+  <th class="News">02/28</th>
+  <td class="News"><a href="https://freebsdfoundation.org/wp-content/uploads/2023/02/f48c488defe969518e20323b252db9240ec04c50.3.pdf">FreeBSD Journal January/February 2023</a></td>
+</tr>
+<tr>
+  <th class="News">02/15</th>
+  <td class="News"><a href="http://ubports.com/blog/ubports-news-1/post/ubuntu-touch-q-a-122-3877">UBports Q&amp;A 122</a></td>
+</tr>
+<tr>
+  <th class="News">02/09</th>
+  <td class="News"><a href="https://www.gentoo.org/news/2023/02/09/new-year.html">Gentoo 2023i-02-09</a></td>
+</tr>
+<tr>
+  <th class="News">01/27</th>
+  <td class="News"><a href="https://dl.fullcirclemagazine.org/issue189_en.pdf">Full Circle Magazine 189</a></td>
+</tr>
+<tr>
+  <th class="News">01/05</th>
+  <td class="News"><a href="https://www.raspberrypi.com/news/liz-and-eben-honoured-by-the-national-museum-of-computing/">Raspberry Pi Weekly 420</a></td>
+</tr>
+<tr>
+  <th class="News">01/03</td>
+  <td class="News"><a href="https://webzine.nixos.cafe/issue-002.html">NixOS Webzine 2</a></td>
+</tr>
+<tr>
+  <th class="News">02/02</th>
+  <td class="News"><a href="https://sparkylinux.org/sparky-news-2022-01/">Sparky News 2022/01</a></td>
+</tr>
+<tr>
+  <th class="News">09/28</th>
+  <td class="News"><a href="http://dl.fullcirclemagazine.org/issue137_en.pdf">Full Circle Magazine 137</a> (pdf)</td>
+</tr>
+
+-->
+<table class="News">
+<tr>
+  <th colspan="3" class="Invert">Latest Podcasts</th>
+</tr>
+<tr>
+  <th class="News">04/24</th>
+  <td class="News"><a href="https://www.opensourcesecuritypodcast.com/">Open Source Security Podcast</a> - <a href="https://opensourcesecurity.io/2023/04/23/episode-372-hhgg-security-episode-42-remaster-part-1/">372</a> (<a href="https://traffic.libsyn.com/opensourcesecuritypodcast/Episode_372_HHGG_security_Episode_42_remaster_part_1.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/20</th>
+  <td class="News"><a href="https://podcastubuntuportugal.org/">Ubuntu Portugal</a> - <a href="https://podcastubuntuportugal.org/e243/">243</a> (<a href="https://media.blubrry.com/ubuntupt/archive.org/download/pup-e243/e243.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/20</th>
+  <td class="News"><a href="http://tllts.org/">TLLTS</a> - 1001 (<a href="http://www.tlltsarchive.org/archives/tllts_1001-04-19-23.ogg">OGG</a>, <a href="http://www.tlltsarchive.org/archives/tllts_1001-04-19-23.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/19</th>
+  <td class="News"><a href="https://dlnxtend.com/">Linux Out Loud</a> - <a href="https://dlnxtend.com/156">156</a> (<a href="https://aphid.fireside.fm/d/1437767933/c276bc2c-a595-4dc0-8b72-dae8357d6dec/408e242f-e6af-4139-97d7-12701d7c882c.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/19</th>
+  <td class="News"><a href="http://twit.tv/floss">FLOSS Weekly</a> - <a href="https://twit.tv/shows/floss-weekly/episodes/728">728</a> (<a href="https://pdst.fm/e/cdn.twit.tv/audio/floss/floss0728/floss0728.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/19</th>
+  <td class="News"><a href="https://mintcast.org/">mintCast</a> - <a href="https://mintcast.org/410-the-rise-of-dr-majid/">410</a> (<a href="https://archive.org/download/mintCast410/ep410.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/18</th>
+  <td class="News"><a href="https://linuxmatters.sh/">Linux Matters</a> - <a href="https://linuxmatters.sh/0/">0</a> (<a href="https://traffic.libsyn.com/latenightlinux/LMP0.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/17</th>
+  <td class="News"><a href="https://latenig03htlinux.com/">Late Night Linux</a> - <a href="https://latenightlinux.com/late-night-linux-episode-225/">225</a> (<a href="https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL225.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/17</th>
+  <td class="News"><a href="https://www.linuxuserspace.show/">Linux User Space</a> - <a href="https://www.linuxuserspace.show/319">3:19</a> (<a href="https://aphid.fireside.fm/d/1437767933/e78a2140-b820-478c-9506-054f2b7e2de2/2dc66e07-a997-476a-9989-f6e402e45faf.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/17</th>
+  <td class="News"><a href="https://linuxgamecast.com/">LinuxGameCast</a> - <a href="https://linuxgamecast.com/2023/04/linux-game-cast-556-dbz-over-ssh/">556</a> (<a href="https://media.blubrry.com/linuxweeklydailywednesday/linuxgamecastaudio.us-southeast-1.linodeobjects.com/LGCWEP556.mp3">MP3</a>)</td>
+</tr>
+</table><br>
+<!--
+<tr>
+  <th class="News">04/13</th>
+  <td class="News"><a href="https://ubuntusecuritypodcast.org/">Ubuntu Security Podcast</a> - <a href="https://ubuntusecuritypodcast.org/episode-193/">193</a> (<a href="https://people.canonical.com/~amurray/USP/USP_E193.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/12</th>
+  <td class="News"><a href="https://linuxlads.com/">Linux Lads</a> - 100 (<a href="https://dts.podtrac.com/redirect.ogg/linuxlads.com/podcast/audio/100/linuxlads_e100.ogg">OGG</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/11</th>
+  <td class="News"><a href="https://destinationlinux.org/">Destination Linux</a> - <a href="https://destinationlinux.org/episode-319/">319</a> (<a href="https://aphid.fireside.fm/d/1437767933/32f28071-0b08-4ea1-afcc-37af75bd83d6/d251f61a-4344-4e60-8a65-7e8bafc032e0.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">04/08</th>
+  <td class="News"><a href="https://sudo.show/">Sudo Show</a> - <a href="https://sudo.show/61">61</a> (<a href="https://aphid.fireside.fm/d/1437767933/f84fed1f-7827-41bf-92fa-5917ca1b716d/6c67a2c3-dee8-4fec-8d39-5155fedc1f04.mp3">MP3</a>)</td>
+</tr>
+<tr>
+ <th class="News">04/01</th>
+ <td class="News"><a href="http://www.badvoltage.org/">Bad Voltage</a> - <a href="https://www.badvoltage.org/2023/03/31/3x57/">3x57/a> (<a href="http://audio.lugradio.org/badvoltage/Bad Voltage 3x57.ogg">OGG</a>)</td>
+</tr>
+<tr>
+  <th class="News">03/26</th>
+  <td class="News"><a href="https://distrohoppersdigest.blogspot.com/">Distrohoppers' Digest</a> - <a href="https://distrohoppersdigest.blogspot.com/2023/03/distrohoppers-digest-episode-41.html">41</a> (<a href="https://ia601609.us.archive.org/26/items/dhd-episode-41/DHD-Episode%2041-Final.ogg">OGG</a>, <a href="https://ia801609.us.archive.org/26/items/dhd-episode-41/DHD-Episode%2041-Final.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">03/23</th>
+  <td class="News"><a href="https://linuxgamecast.com/category/lwdw/">LWDW</a> - <a href="https://linuxgamecast.com/2023/03/backing-up-with-penguin-eggs-open-sourcing-moonray/">367</a> (<a href="https://media.blubrry.com/linuxweeklydailywednesday/lwdwaudio.us-southeast-1.linodeobjects.com/LWDW367.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">03/14</th>
+  <td class="News"><a href="http://goinglinux.com/">Going Linux</a> - <a href="https://goinglinux.com/shownotes.html#glp438">438</a> (<a href="https://www.archive.org/download/glp438/glp438.ogg">OGG</a>, <a href="https://www.archive.org/download/glp438/glp438.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">03/10</th>
+  <td class="News"><a href="https://kernelpodcast.org/">Linux Kernel Podcast</a> - <a href="https://kernelpodcast.org/2023/03/09/s2e3-2023-03-09/">S2E3</a> (<a href="https://traffic.libsyn.com/secure/jcm/lkml_podcast_s2e3_01.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">01/24</th>
+  <td class="News"><a href="http://linuxfortherestofus.com/">LFTROU</a> - <a href="http://podnutz.com/lftrou259/">259</a> (<a href="http://podnutz.com/episodes/lftrou/lftrou259.mp3">MP3</a>)</td>
+</tr>
+<tr>
+  <th class="News">01/15</th>
+  <td class="News"><a href="https://fullcirclemagazine.org/">Full Circle</a> - <a href="https://fullcirclemagazine.org/podcast/full-circle-weekly-news-296/">296</a> (<a href="https://fullcirclemagazine.org/podcast-download/28785/full-circle-weekly-news-296.mp3">MP3</a>)</td>
+</tr>
+-->
+<table class="News">
+<tr>
+  <th colspan="3" class="Invert">New To Waiting List</th>
+</tr>
+<tr><th class="News">04/21</th><td class="News"><a href="https://getfreeos.com/">GetFreeOS</a></td></tr>
+<tr><th class="News">04/18</th><td class="News"><a href="https://github.com/porteux/porteux">PorteuX</a></td></tr>
+<tr><th class="News">04/15</th><td class="News"><a href="http://www.refreshos.site/">RefreshOS</a></td></tr>
+</table><br>
+
+      <table style="text-align:center; width: 100%; table-layout: auto">        <tr>          <th class="Invert">Random Distribution</th>        </tr>        <tr style="background-color: #f6edc8; width: 100%">          <td class="News" style="text-align: center; width: 100%"><a href="zephix"><img src="images/yvzhuwbpy/zephix.png" border="0" title="Zephix" align="center"></a><br /><br />
+<div style="font-size: 150%">Zephix</div><br />
+Zephix is a live Linux operating system based on Debian's stable branch. It runs totally from removable media without touching any files stored on the user's system disk. The aim of Zephix is to provide a free modular operating system that users can carry with them and use wherever there is a laptop or a desktop system available. The default ISO image comes without any graphical desktop, but a "desktop" module (with LXQt) is available separately, together with a "firmware" module and various popular application modules.<br /><br />
+<a href="images/slinks/zephix.png"><img src="images/slinks/zephix-small.png" border=0 title"Zephix" align="center" width="150" height="120"></a>
+    <br /><br />
+<b>Status: <font color="green">Active</font></b>    <br /><br />
+          </td>        </tr>      </table>      <br>      <table class="News">        <tr>          <th class="Invert">Tips, Tricks, Q&amp;As</th>        </tr><tr><td class="News"><a href="weekly.php?issue=20210322#qa">Questions and answers: Strange, unusual, and fun things to do with Linux</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20140804#qa">Questions and answers: Getting started with Linux servers</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20150420#myth">Myths and misunderstandings: ZFS</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20120213#qa">Questions and answers: Tracking and identifying users through web browser data</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20130812#qa">Questions and answers: Managing many passwords easily</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20120220#qa">Questions and answers: End of support for Kubuntu</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20050725#tips">Tips and tricks: Digital cameras, mobile phones and music players under Linux</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20160926#qa">Questions and answers: Blocking applications at the firewall</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20171218#tips">Tips and tricks: Tools for rescuing the operating system and data files</a></td></tr>
+<tr><td class="News"><a href="weekly.php?issue=20101115#tips">Tips and tricks: Check free disk space, wait for a process, command line spell-check, shutdown PC when CPU gets hot</a></td></tr>
+<tr><td class="News" style="text-align: center">More <b><a href="tips.php">Tips &amp Tricks</a></b> and <b><a href="qanda.php">Questions &amp; Answers</a></b></td></tr>      </table>      <br>    </td>
+      <td style="width: 60%; vertical-align: top; border: none">
+        <table width="100%">
+          <tr>
+            <th class="Invert"><a name="0"></a><a href="news/dw.xml"><img style="vertical-align: middle" src="images/other/xml.png" border="0"></a>&nbsp;Latest News and Updates</th>
+          </tr>
+          <tr>
+            <td class="News1">
+              <table width="100%">
+                <tr class="News">
+                  <td class="NewsHeadline">News Filtering Options</td>
+                </tr>
+                <tr>
+                  <td class="Introduction" style="border: none">
+                  <form style="height: 20%" method="get" action="index.php"><b>Distribution: </b> <select name="distribution"><option value="all">All</option>0Linux<option value="0linux">0Linux</option>
+2XOS<option value="2x">2XOS</option>
+3CX<option value="3cx">3CX</option>
+4MLinux<option value="4mlinux">4MLinux</option>
+64 Studio<option value="64studio">64 Studio</option>
+Absolute<option value="absolute">Absolute</option>
+AbulÉdu<option value="abuledu">AbulÉdu</option>
+AcademiX<option value="academix">AcademiX</option>
+Adamantix<option value="adamantix">Adamantix</option>
+ADIOS<option value="adios">ADIOS</option>
+AgiliaLinux<option value="agilia">AgiliaLinux</option>
+AGNULA<option value="demudi">AGNULA</option>
+AiO<option value="aio">AiO</option>
+Aleader<option value="aleader">Aleader</option>
+Alinex<option value="alinex">Alinex</option>
+aLinux<option value="alinux">aLinux</option>
+AliXe<option value="alixe">AliXe</option>
+AlmaLinux<option value="alma">AlmaLinux</option>
+Alpine<option value="alpine">Alpine</option>
+ALT<option value="alt">ALT</option>
+Amarok Live<option value="amaroklive">Amarok Live</option>
+Amber<option value="amber">Amber</option>
+Anarchy<option value="anarchy">Anarchy</option>
+Android-x86<option value="androidx86">Android-x86</option>
+Ankur Bangla<option value="ankur">Ankur Bangla</option>
+Annvix<option value="annvix">Annvix</option>
+AnNyung<option value="annyung">AnNyung</option>
+Anonym.OS<option value="anonymos">Anonym.OS</option>
+ANTEMIUM<option value="antemium">ANTEMIUM</option>
+Antergos<option value="antergos">Antergos</option>
+antiX<option value="antix">antiX</option>
+Antomic<option value="antomic">Antomic</option>
+APODIO<option value="apodio">APODIO</option>
+Apricity<option value="apricity">Apricity</option>
+aptosid<option value="aptosid">aptosid</option>
+Arabbix<option value="arabbix">Arabbix</option>
+Arabian<option value="arabian">Arabian</option>
+Arch<option value="arch">Arch</option>
+ArchBang<option value="archbang">ArchBang</option>
+Archcraft<option value="archcraft">Archcraft</option>
+ArcheOS<option value="archeos">ArcheOS</option>
+Archie<option value="archie">Archie</option>
+ArchLabs<option value="archlabs">ArchLabs</option>
+Archman<option value="archman">Archman</option>
+ArchStrike<option value="archstrike">ArchStrike</option>
+ArcoLinux<option value="arco">ArcoLinux</option>
+Ares<option value="ares">Ares</option>
+AriOS<option value="arios">AriOS</option>
+Ark<option value="ark">Ark</option>
+arkOS<option value="arkos">arkOS</option>
+Armbian<option value="armbian">Armbian</option>
+ArtistX<option value="artistx">ArtistX</option>
+Artix<option value="artix">Artix</option>
+Arudius<option value="arudius">Arudius</option>
+Arya<option value="arya">Arya</option>
+AsianLinux<option value="asianlinux">AsianLinux</option>
+Asianux<option value="asianux">Asianux</option>
+ASLinux<option value="aslinux">ASLinux</option>
+ASPLinux<option value="asp">ASPLinux</option>
+Asturix<option value="asturix">Asturix</option>
+Athena<option value="athena">Athena</option>
+Athene<option value="athene">Athene</option>
+ATmission<option value="atmission">ATmission</option>
+Atomix<option value="atomix">Atomix</option>
+Audiophile<option value="audiophile">Audiophile</option>
+Augustux<option value="augustux">Augustux</option>
+Aurora<option value="auroraos">Aurora</option>
+Aurora SPARC<option value="aurora">Aurora SPARC</option>
+Aurox<option value="aurox">Aurox</option>
+AUSTRUMI<option value="austrumi">AUSTRUMI</option>
+AV Linux<option value="avlinux">AV Linux</option>
+BackBox<option value="backbox">BackBox</option>
+BackSlash<option value="backslash">BackSlash</option>
+Baltix<option value="baltix">Baltix</option>
+Bardinux<option value="bardinux">Bardinux</option>
+Baruwa<option value="baruwa">Baruwa</option>
+Batocera<option value="batocera">Batocera</option>
+Bayanihan<option value="bayanihan">Bayanihan</option>
+BeaFanatIX<option value="beafanatix">BeaFanatIX</option>
+BeakOS<option value="beakos">BeakOS</option>
+BearOps<option value="bearops">BearOps</option>
+BeatrIX<option value="beatrix">BeatrIX</option>
+Bedrock<option value="bedrock">Bedrock</option>
+Bee<option value="bee">Bee</option>
+BEE free<option value="beefree">BEE free</option>
+Beehive<option value="beehive">Beehive</option>
+BEERnix<option value="beernix">BEERnix</option>
+BeleniX<option value="belenix">BeleniX</option>
+Bella<option value="bella">Bella</option>
+Berry<option value="berry">Berry</option>
+Biadix<option value="biadix">Biadix</option>
+Bicom<option value="bicom">Bicom</option>
+BigLinux<option value="biglinux">BigLinux</option>
+BinToo<option value="bintoo">BinToo</option>
+Bio-Linux<option value="biolinux">Bio-Linux</option>
+BioBrew<option value="biobrew">BioBrew</option>
+Bioknoppix<option value="bioknoppix">Bioknoppix</option>
+BitKey<option value="bitkey">BitKey</option>
+Black Lab<option value="blacklab">Black Lab</option>
+BlackArch<option value="blackarch">BlackArch</option>
+blackPanther<option value="blackpanther">blackPanther</option>
+BlackRhino<option value="blackrhino">BlackRhino</option>
+BLAG<option value="blag">BLAG</option>
+BlankOn<option value="blankon">BlankOn</option>
+blendOS<option value="blendos">blendOS</option>
+Blin<option value="blin">Blin</option>
+Blue<option value="blue">Blue</option>
+Blue Point<option value="bluepoint">Blue Point</option>
+BlueOnyx<option value="blueonyx">BlueOnyx</option>
+Bluestar<option value="bluestar">Bluestar</option>
+Bluewall<option value="bluewall">Bluewall</option>
+Bluewhite<option value="bluewhite64">Bluewhite</option>
+Bodhi<option value="bodhi">Bodhi</option>
+Bonzai<option value="bonzai">Bonzai</option>
+BOSS<option value="boss">BOSS</option>
+Boten<option value="boten">Boten</option>
+Br OS<option value="bros">Br OS</option>
+Bridge<option value="bridge">Bridge</option>
+BRLix<option value="brlix">BRLix</option>
+BrlSpeak<option value="brlspeak">BrlSpeak</option>
+BSDanywhere<option value="bsdanywhere">BSDanywhere</option>
+BSDRP<option value="bsdrp">BSDRP</option>
+BU Linux<option value="bulinux">BU Linux</option>
+Buffalo<option value="buffalo">Buffalo</option>
+BunsenLabs<option value="bunsenlabs">BunsenLabs</option>
+Burapha<option value="burapha">Burapha</option>
+BYO<option value="byo">BYO</option>
+ByzantineOS<option value="byzantineos">ByzantineOS</option>
+CachyOS<option value="cachyos">CachyOS</option>
+CAELinux<option value="cae">CAELinux</option>
+CAINE<option value="caine">CAINE</option>
+Caixa Mágica<option value="caixamagica">Caixa Mágica</option>
+Calculate<option value="calculate">Calculate</option>
+Canaima<option value="canaima">Canaima</option>
+Caos<option value="caos">Caos</option>
+Càtix<option value="catix">Càtix</option>
+CCux<option value="ccux">CCux</option>
+CDlinux<option value="cdlinux">CDlinux</option>
+CensorNet<option value="censornet">CensorNet</option>
+CentOS<option value="centos">CentOS</option>
+Centrych<option value="centrych">Centrych</option>
+Chakra<option value="chakra">Chakra</option>
+ChaletOS<option value="chaletos">ChaletOS</option>
+Chapeau<option value="chapeau">Chapeau</option>
+Chinese 2000<option value="chinese2000">Chinese 2000</option>
+Chitwanix<option value="chitwanix">Chitwanix</option>
+CLE<option value="cle">CLE</option>
+Clear<option value="clear">Clear</option>
+ClearOS<option value="clearos">ClearOS</option>
+Clonezilla<option value="clonezilla">Clonezilla</option>
+ClonOS<option value="clonos">ClonOS</option>
+CloudReady<option value="cloudready">CloudReady</option>
+Clu<option value="clu">Clu</option>
+Clusterix<option value="clusterix">Clusterix</option>
+clusterKNOPPIX<option value="clusterknoppix">clusterKNOPPIX</option>
+Co-Create<option value="opendesktop">Co-Create</option>
+Cobind<option value="cobind">Cobind</option>
+College<option value="college">College</option>
+Comfusion<option value="comfusion">Comfusion</option>
+Commodore<option value="commodore">Commodore</option>
+Condorux<option value="condorux">Condorux</option>
+Condres<option value="condres">Condres</option>
+Conectiva<option value="conectiva">Conectiva</option>
+Connochaet<option value="connochaet">Connochaet</option>
+Container<option value="container">Container</option>
+Cool<option value="cool">Cool</option>
+Core<option value="core">Core</option>
+Corel<option value="corel">Corel</option>
+Coyote<option value="coyote">Coyote</option>
+CPUBuilders<option value="cpubuilders">CPUBuilders</option>
+CrunchBang<option value="crunchbang">CrunchBang</option>
+CRUX<option value="crux">CRUX</option>
+CTKArch<option value="ctkarch">CTKArch</option>
+Cub<option value="cub">Cub</option>
+Cucumber<option value="cucumber">Cucumber</option>
+Damn Small<option value="damnsmall">Damn Small</option>
+DANIX<option value="danix">DANIX</option>
+Daphile<option value="daphile">Daphile</option>
+DARKSTAR<option value="darkstar">DARKSTAR</option>
+Debian<option value="debian">Debian</option>
+Debian Edu<option value="skolelinux">Debian Edu</option>
+Debris<option value="debris">Debris</option>
+DebXPde<option value="debxpde">DebXPde</option>
+Deep-Water<option value="deepwater">Deep-Water</option>
+deepin<option value="deepin">deepin</option>
+Defender<option value="defender">Defender</option>
+Definity<option value="definity">Definity</option>
+DEFT<option value="deft">DEFT</option>
+DemoLinux<option value="demolinux">DemoLinux</option>
+Descent|OS<option value="descentos">Descent|OS</option>
+DesktopBSD<option value="desktopbsd">DesktopBSD</option>
+Devil<option value="devil">Devil</option>
+Devuan<option value="devuan">Devuan</option>
+Diamond<option value="diamond">Diamond</option>
+DietPi<option value="dietpi">DietPi</option>
+DigAnTel<option value="digantel">DigAnTel</option>
+Discreete<option value="discreete">Discreete</option>
+Dizinha<option value="dizinha">Dizinha</option>
+DNALinux<option value="dnalinux">DNALinux</option>
+DoudouLinux<option value="doudou">DoudouLinux</option>
+Draco<option value="draco">Draco</option>
+DragonFly<option value="dragonflybsd">DragonFly</option>
+Dragora<option value="dragora">Dragora</option>
+DRBL<option value="drbl">DRBL</option>
+Dreamlinux<option value="dreamlinux">Dreamlinux</option>
+DreamStudio<option value="dreamstudio">DreamStudio</option>
+DuZeru<option value="duzeru">DuZeru</option>
+DVL<option value="dvl">DVL</option>
+Dynasoft<option value="dynasoft">Dynasoft</option>
+dyne:bolic<option value="dynebolic">dyne:bolic</option>
+DynFi<option value="dynfi">DynFi</option>
+Dzongkha<option value="dzongkha">Dzongkha</option>
+Eadem<option value="eadem">Eadem</option>
+Eagle<option value="eagle">Eagle</option>
+eAR OS<option value="earos">eAR OS</option>
+EasyNAS<option value="easynas">EasyNAS</option>
+EasyOS<option value="easyos">EasyOS</option>
+EasyPeasy<option value="easypeasy">EasyPeasy</option>
+easys<option value="easys">easys</option>
+Edubuntu<option value="edubuntu">Edubuntu</option>
+eduKnoppix<option value="eduknoppix">eduKnoppix</option>
+EduLinux<option value="edulinux">EduLinux</option>
+Ehad<option value="ehad">Ehad</option>
+Ekaaty<option value="ekaaty">Ekaaty</option>
+Elastix<option value="elastix">Elastix</option>
+eLearnix<option value="elearnix">eLearnix</option>
+Element<option value="element">Element</option>
+elementary<option value="elementary">elementary</option>
+Elive<option value="elive">Elive</option>
+elpicx<option value="elpicx">elpicx</option>
+ELX<option value="elx">ELX</option>
+Emmabuntüs<option value="emmabuntus">Emmabuntüs</option>
+EndeavourOS<option value="endeavour">EndeavourOS</option>
+Endian<option value="endian">Endian</option>
+Endless<option value="endless">Endless</option>
+EnGarde<option value="engarde">EnGarde</option>
+Enso<option value="enso">Enso</option>
+Epidemic<option value="epidemic">Epidemic</option>
+Eridani<option value="eridani">Eridani</option>
+ERPOSS<option value="erposs">ERPOSS</option>
+Estrella Roja<option value="estrellaroja">Estrella Roja</option>
+ESUN<option value="esun">ESUN</option>
+ESware<option value="esware">ESware</option>
+EuroLinux<option value="eurolinux">EuroLinux</option>
+Euronode<option value="euronode">Euronode</option>
+EvilEntity<option value="evilentity">EvilEntity</option>
+Evinux<option value="evinux">Evinux</option>
+Exe<option value="exe">Exe</option>
+Exherbo<option value="exherbo">Exherbo</option>
+ExTiX<option value="extix">ExTiX</option>
+eZeY<option value="ezey">eZeY</option>
+EzPlanet One<option value="ezplanet">EzPlanet One</option>
+Fatdog64<option value="fatdog">Fatdog64</option>
+FaunOS<option value="faunos">FaunOS</option>
+Feather<option value="feather">Feather</option>
+Featherweight<option value="featherweight">Featherweight</option>
+Fedora<option value="fedora">Fedora</option>
+Feren<option value="ferenos">Feren</option>
+Fermi<option value="fermi">Fermi</option>
+Finnix<option value="finnix">Finnix</option>
+FIRE<option value="fire">FIRE</option>
+Firefly<option value="firefly">Firefly</option>
+Flash<option value="flash">Flash</option>
+Flonix<option value="flonix">Flonix</option>
+Fluxbuntu<option value="fluxbuntu">Fluxbuntu</option>
+Foresight<option value="foresight">Foresight</option>
+FoRK<option value="fork">FoRK</option>
+ForLEx<option value="forlex">ForLEx</option>
+FoX Desktop<option value="fox">FoX Desktop</option>
+FreeBSD<option value="freebsd">FreeBSD</option>
+FreedomBox<option value="freedombox">FreedomBox</option>
+Freedows<option value="freedows">Freedows</option>
+Freeduc<option value="freeduc">Freeduc</option>
+Freeduc-Sup<option value="freeducsup">Freeduc-Sup</option>
+FreePBX<option value="freepbx">FreePBX</option>
+Freepia<option value="freepia">Freepia</option>
+FreeSBIE<option value="freesbie">FreeSBIE</option>
+Freespire<option value="freespire">Freespire</option>
+Frenzy<option value="frenzy">Frenzy</option>
+Frugalware<option value="frugalware">Frugalware</option>
+FTOSX<option value="ftosx">FTOSX</option>
+Fuduntu<option value="fuduntu">Fuduntu</option>
+FuguIta<option value="fuguita">FuguIta</option>
+Funtoo<option value="funtoo">Funtoo</option>
+FuryBSD<option value="furybsd">FuryBSD</option>
+Fusion<option value="fusion">Fusion</option>
+Garuda<option value="garuda">Garuda</option>
+Gecko<option value="gecko">Gecko</option>
+GeeXboX<option value="geexbox">GeeXboX</option>
+Gelecek<option value="gelecek">Gelecek</option>
+GenieOS<option value="genieos">GenieOS</option>
+Gentoo<option value="gentoo">Gentoo</option>
+GentooTH<option value="gentooth">GentooTH</option>
+Gentoox<option value="gentoox">Gentoox</option>
+GEOLivre<option value="geolivre">GEOLivre</option>
+GhostBSD<option value="ghostbsd">GhostBSD</option>
+Gibraltar<option value="gibraltar">Gibraltar</option>
+Ging<option value="ging">Ging</option>
+GnackTrack<option value="gnacktrack">GnackTrack</option>
+gNewSense<option value="gnewsense">gNewSense</option>
+GNIX<option value="gnix">GNIX</option>
+GNOBSD<option value="gnobsd">GNOBSD</option>
+Gnoppix<option value="gnoppix">Gnoppix</option>
+gNOX<option value="gnox">gNOX</option>
+GNUstep<option value="gnustep">GNUstep</option>
+GoboLinux<option value="gobo">GoboLinux</option>
+gOS<option value="gos">gOS</option>
+GParted<option value="gparted">GParted</option>
+Grafpup<option value="grafpup">Grafpup</option>
+Granular<option value="granular">Granular</option>
+Greenie<option value="greenie">Greenie</option>
+Grml<option value="grml">Grml</option>
+Guadalinex<option value="guadalinex">Guadalinex</option>
+Guix System<option value="guixsd">Guix System</option>
+GuLIC-BSD<option value="gulicbsd">GuLIC-BSD</option>
+h3knix<option value="h3knix">h3knix</option>
+Haansoft<option value="haansoft">Haansoft</option>
+Hacao<option value="hacao">Hacao</option>
+Haiku<option value="haiku">Haiku</option>
+Hakin9<option value="hakin9">Hakin9</option>
+Hamara<option value="hamara">Hamara</option>
+HamoniKR<option value="hamonikr">HamoniKR</option>
+Hancom<option value="hancom">Hancom</option>
+HandyLinux<option value="handy">HandyLinux</option>
+Hanthana<option value="hanthana">Hanthana</option>
+Happy<option value="happy">Happy</option>
+Happy Mac<option value="happymac">Happy Mac</option>
+HardenedBSD<option value="hardenedbsd">HardenedBSD</option>
+Haydar<option value="haydar">Haydar</option>
+heads<option value="heads">heads</option>
+Hedinux<option value="hedinux">Hedinux</option>
+Helix<option value="helix">Helix</option>
+hellosystem<option value="hellosystem">hellosystem</option>
+Heretix<option value="heretix">Heretix</option>
+Hikarunix<option value="hikarunix">Hikarunix</option>
+HispaFuentes<option value="hispafuentes">HispaFuentes</option>
+HKLPG<option value="hklpg">HKLPG</option>
+Holon<option value="holon">Holon</option>
+Honeywall<option value="honeywall">Honeywall</option>
+How-Tux<option value="howtux">How-Tux</option>
+HP Secure<option value="hpsecure">HP Secure</option>
+Hubworx<option value="ayrsoft">Hubworx</option>
+Hybryde<option value="hybryde">Hybryde</option>
+Hymera<option value="hymera">Hymera</option>
+Hyperbola<option value="hyperbola">Hyperbola</option>
+iBox<option value="ibox">iBox</option>
+Icepack<option value="icepack">Icepack</option>
+Ichthux<option value="ichthux">Ichthux</option>
+IDMS<option value="idms">IDMS</option>
+Igelle<option value="igelle">Igelle</option>
+Ignalum<option value="ignalum">Ignalum</option>
+iMagic<option value="imagicos">iMagic</option>
+Imagineos<option value="imagineos">Imagineos</option>
+Immunix<option value="immunix">Immunix</option>
+Impi<option value="impi">Impi</option>
+IndLinux<option value="indlinux">IndLinux</option>
+Inquisitor<option value="inquisitor">Inquisitor</option>
+INSERT<option value="insert">INSERT</option>
+Insigne<option value="insigne">Insigne</option>
+IPCop<option value="ipcop">IPCop</option>
+IPFire<option value="ipfire">IPFire</option>
+iQunix<option value="iqunix">iQunix</option>
+JackLab<option value="jacklab">JackLab</option>
+JAMD<option value="jamd">JAMD</option>
+JBLinux<option value="jblinux">JBLinux</option>
+Jibbed<option value="jibbed">Jibbed</option>
+JingOS<option value="jingos">JingOS</option>
+Joli OS<option value="jolios">Joli OS</option>
+JoLinux<option value="jolinux">JoLinux</option>
+Jollix<option value="jollix">Jollix</option>
+Julex<option value="julex">Julex</option>
+JUSIX<option value="jusix">JUSIX</option>
+K12Linux<option value="k12linux">K12Linux</option>
+kademar<option value="kdemar">kademar</option>
+Kaella<option value="kaella">Kaella</option>
+KahelOS<option value="kahelos">KahelOS</option>
+Kaisen<option value="kaisen">Kaisen</option>
+Kalango<option value="kalango">Kalango</option>
+Kali<option value="kali">Kali</option>
+KANOTIX<option value="kanotix">KANOTIX</option>
+KaOS<option value="kaos">KaOS</option>
+Karamad<option value="karamad">Karamad</option>
+Karoshi<option value="karoshi">Karoshi</option>
+KateOS<option value="kate">KateOS</option>
+KDE neon<option value="kdeneon">KDE neon</option>
+Keysoft<option value="keysoft">Keysoft</option>
+Kinneret<option value="kinneret">Kinneret</option>
+KISS<option value="kiss">KISS</option>
+Kiwi<option value="kiwi">Kiwi</option>
+Klax<option value="klax">Klax</option>
+Klikit<option value="klikit">Klikit</option>
+KlusTriX<option value="klustrix">KlusTriX</option>
+kmLinux<option value="kmlinux">kmLinux</option>
+knopILS<option value="knopils">knopILS</option>
+Knoppel<option value="knoppel">Knoppel</option>
+Knopperdisk<option value="knopperdisk">Knopperdisk</option>
+KNOPPIX<option value="knoppix">KNOPPIX</option>
+Knoppix 64<option value="knoppix64">Knoppix 64</option>
+KnoppiXMAME<option value="knoppixmame">KnoppiXMAME</option>
+KnoSciences<option value="knosciences">KnoSciences</option>
+Kodachi<option value="kodachi">Kodachi</option>
+KolibriOS<option value="kolibri">KolibriOS</option>
+Komodo<option value="komodo">Komodo</option>
+Kondara<option value="kondara">Kondara</option>
+Kongoni<option value="kongoni">Kongoni</option>
+Kore<option value="kore">Kore</option>
+Korora<option value="korora">Korora</option>
+KRUD<option value="krud">KRUD</option>
+Kubuntu<option value="kubuntu">Kubuntu</option>
+Kuki<option value="kuki">Kuki</option>
+Kurumin<option value="kurumin">Kurumin</option>
+Kwheezy<option value="kwheezy">Kwheezy</option>
+Kwort<option value="kwort">Kwort</option>
+KXStudio<option value="kxstudio">KXStudio</option>
+L.A.S.<option value="las">L.A.S.</option>
+Lakka<option value="lakka">Lakka</option>
+LAMPPIX<option value="lamppix">LAMPPIX</option>
+LASER5<option value="laser5">LASER5</option>
+LBA-Linux<option value="sot">LBA-Linux</option>
+Leeenux<option value="leeenux">Leeenux</option>
+Legacy<option value="legacy">Legacy</option>
+LFS<option value="lfs">LFS</option>
+LG3D<option value="lg3d">LG3D</option>
+LGIS<option value="lgis">LGIS</option>
+Liberté<option value="liberte">Liberté</option>
+Libranet<option value="libranet">Libranet</option>
+LibreELEC<option value="libreelec">LibreELEC</option>
+LIIS<option value="liis">LIIS</option>
+Linare<option value="linare">Linare</option>
+Lineox<option value="lineox">Lineox</option>
+LinEspa<option value="linespa">LinEspa</option>
+LinEx<option value="linex">LinEx</option>
+Linguas OS<option value="linguasos">Linguas OS</option>
+LinHES<option value="linhes">LinHES</option>
+LinnexOS<option value="linnexos">LinnexOS</option>
+Linpus<option value="linpus">Linpus</option>
+Linspire<option value="linspire">Linspire</option>
+Linux XP<option value="linuxxp">Linux XP</option>
+Linux-EduCD<option value="linuxeducd">Linux-EduCD</option>
+linuX-gamers<option value="linuxgamers">linuX-gamers</option>
+Linux+ Live<option value="linuxplus">Linux+ Live</option>
+Linux4all<option value="rpmlive">Linux4all</option>
+LinuxBBQ<option value="linuxbbq">LinuxBBQ</option>
+LinuxConsole<option value="linuxconsole">LinuxConsole</option>
+Linuxfx<option value="linuxfx">Linuxfx</option>
+Linuxin<option value="linuxin">Linuxin</option>
+LinuxInstall<option value="linuxinstall">LinuxInstall</option>
+LINUXO<option value="linuxo">LINUXO</option>
+LinuxPPC<option value="linuxppc">LinuxPPC</option>
+LinuxTLE<option value="linuxtle">LinuxTLE</option>
+Linvo<option value="linvo">Linvo</option>
+Liquid Lemur<option value="liquidlemur">Liquid Lemur</option>
+Lite<option value="lite">Lite</option>
+Litrix<option value="litrix">Litrix</option>
+Live Raizo<option value="liveraizo">Live Raizo</option>
+LiveCD Router<option value="livecdrouter">LiveCD Router</option>
+LiVux<option value="livux">LiVux</option>
+LLGP<option value="llgp">LLGP</option>
+LliureX<option value="lliurex">LliureX</option>
+LNX-BBC<option value="lnxbbc">LNX-BBC</option>
+LockBox<option value="lockbox">LockBox</option>
+Loco<option value="loco">Loco</option>
+Lonix<option value="lonix">Lonix</option>
+LormaLinux<option value="lorma">LormaLinux</option>
+LRs<option value="lrs">LRs</option>
+Lubuntu<option value="lubuntu">Lubuntu</option>
+Luinux<option value="luinux">Luinux</option>
+Luit<option value="luit">Luit</option>
+Luminux<option value="luminux">Luminux</option>
+Lunar<option value="lunar">Lunar</option>
+LuninuX<option value="luninux">LuninuX</option>
+LXLE<option value="lxle">LXLE</option>
+Lycoris<option value="lycoris">Lycoris</option>
+m0n0wall<option value="monowall">m0n0wall</option>
+Mabox<option value="mabox">Mabox</option>
+Macpup<option value="macpup">Macpup</option>
+Madbox<option value="madbox">Madbox</option>
+Madeinlinux<option value="madeinlinux">Madeinlinux</option>
+Mageia<option value="mageia">Mageia</option>
+Magic<option value="magic">Magic</option>
+mAid<option value="maid">mAid</option>
+MakuluLinux<option value="makulu">MakuluLinux</option>
+Mandows<option value="mandows">Mandows</option>
+Mandriva<option value="mandriva">Mandriva</option>
+Mangaka<option value="mangaka">Mangaka</option>
+Manjaro<option value="manjaro">Manjaro</option>
+Maryan<option value="maryan">Maryan</option>
+Masonux<option value="masonux">Masonux</option>
+Matriux<option value="matriux">Matriux</option>
+Maui<option value="maui">Maui</option>
+MAX<option value="max">MAX</option>
+Mayix<option value="mayix">Mayix</option>
+MCNLive<option value="mcnlive">MCNLive</option>
+Media Lab<option value="medialab">Media Lab</option>
+MeeGo<option value="meego">MeeGo</option>
+MEPIS<option value="mepis">MEPIS</option>
+Merdeka<option value="merdeka">Merdeka</option>
+Metamorphose<option value="metamorphose">Metamorphose</option>
+MidnightBSD<option value="midnightbsd">MidnightBSD</option>
+MIKO GNYO<option value="miko">MIKO GNYO</option>
+MilaX<option value="milax">MilaX</option>
+MiniNo<option value="minino">MiniNo</option>
+MINIX<option value="minix">MINIX</option>
+Mint<option value="mint">Mint</option>
+MIRACLE<option value="miracle">MIRACLE</option>
+MirOS<option value="miros">MirOS</option>
+MIZI<option value="mizi">MIZI</option>
+MLL<option value="mll">MLL</option>
+Moblin<option value="moblin">Moblin</option>
+Mockup<option value="mockup">Mockup</option>
+MoLinux<option value="molinux">MoLinux</option>
+Momonga<option value="momonga">Momonga</option>
+Monomaxos<option value="monomaxos">Monomaxos</option>
+Monoppix<option value="monoppix">Monoppix</option>
+moonOS<option value="moonos">moonOS</option>
+MorpheusArch<option value="morpheusarch">MorpheusArch</option>
+Morphix<option value="morphix">Morphix</option>
+MoviX<option value="movix">MoviX</option>
+MSC.Linux<option value="msc">MSC.Linux</option>
+MUMi<option value="mumi">MUMi</option>
+Munjoy<option value="munjoy">Munjoy</option>
+Murena<option value="murena">Murena</option>
+Muriqui<option value="muriqui">Muriqui</option>
+Murix<option value="murix">Murix</option>
+Musix<option value="musix">Musix</option>
+Mutagenix<option value="mutagenix">Mutagenix</option>
+MX Linux<option value="mx">MX Linux</option>
+Myah OS<option value="myah">Myah OS</option>
+myLinux<option value="mylinux">myLinux</option>
+Myrinix<option value="myrinix">Myrinix</option>
+Mythbuntu<option value="mythbuntu">Mythbuntu</option>
+MythDora<option value="mythdora">MythDora</option>
+N-iX<option value="nix">N-iX</option>
+Namib<option value="namib">Namib</option>
+Nanolinux<option value="nanolinux">Nanolinux</option>
+Nasgaïa<option value="nasgaia">Nasgaïa</option>
+Nature's<option value="natures">Nature's</option>
+Navy<option value="navy">Navy</option>
+Navyn OS<option value="navynos">Navyn OS</option>
+Neat<option value="neat">Neat</option>
+NeoShine<option value="neoshine">NeoShine</option>
+NepaLinux<option value="nepalinux">NepaLinux</option>
+Neptune<option value="neptune">Neptune</option>
+NetBSD<option value="netbsd">NetBSD</option>
+NethServer<option value="nethserver">NethServer</option>
+Netrunner<option value="netrunner">Netrunner</option>
+Netwosix<option value="netwosix">Netwosix</option>
+Nexenta<option value="nexenta">Nexenta</option>
+NexentaStor<option value="nexentastor">NexentaStor</option>
+Niigata<option value="niigata">Niigata</option>
+NimbleX<option value="nimblex">NimbleX</option>
+Nitix<option value="nitix">Nitix</option>
+Nitrux<option value="nitrux">Nitrux</option>
+NixOS<option value="nixos">NixOS</option>
+Nobara<option value="nobara">Nobara</option>
+NomadBSD<option value="nomadbsd">NomadBSD</option>
+Nonux<option value="nonux">Nonux</option>
+NordisKnoppix<option value="nordisknoppix">NordisKnoppix</option>
+Nova<option value="nova">Nova</option>
+NST<option value="nst">NST</option>
+nUbuntu<option value="nubuntu">nUbuntu</option>
+NuTyX<option value="nutyx">NuTyX</option>
+NuxOne<option value="nuxone">NuxOne</option>
+O-Net<option value="onet">O-Net</option>
+OB2D<option value="ob2d">OB2D</option>
+Obarun<option value="obarun">Obarun</option>
+OEone<option value="oeone">OEone</option>
+OGo Knoppix<option value="ogoknoppix">OGo Knoppix</option>
+Ojuba<option value="ojuba">Ojuba</option>
+Olive<option value="olive">Olive</option>
+OliveBSD<option value="olivebsd">OliveBSD</option>
+OLPC<option value="olpc">OLPC</option>
+Omarine<option value="omarine">Omarine</option>
+Omoikane<option value="omoikane">Omoikane</option>
+Onebase<option value="onebase">Onebase</option>
+OpenBSD<option value="openbsd">OpenBSD</option>
+OpenELEC<option value="openelec">OpenELEC</option>
+Openfiler<option value="openfiler">Openfiler</option>
+OpenGEU<option value="opengeu">OpenGEU</option>
+OpenIndiana<option value="openindiana">OpenIndiana</option>
+OpenLab<option value="openlab">OpenLab</option>
+OpenLX<option value="openlx">OpenLX</option>
+openmamba<option value="openmamba">openmamba</option>
+OpenMandriva<option value="openmandriva">OpenMandriva</option>
+OpenMediaVault<option value="openmediavault">OpenMediaVault</option>
+OpenNA<option value="openna">OpenNA</option>
+OpenSolaris<option value="opensolaris">OpenSolaris</option>
+openSUSE<option value="opensuse">openSUSE</option>
+Openwall<option value="openwall">Openwall</option>
+Ophcrack<option value="ophcrack">Ophcrack</option>
+OPNsense<option value="opnsense">OPNsense</option>
+Oracle<option value="oracle">Oracle</option>
+Oralux<option value="oralux">Oralux</option>
+OSGeoLive<option value="osgeo">OSGeoLive</option>
+OSMC<option value="osmc">OSMC</option>
+Otakux<option value="otakux">Otakux</option>
+Overclockix<option value="overclockix">Overclockix</option>
+OviOS<option value="ovios">OviOS</option>
+Oz Unity<option value="ozunity">Oz Unity</option>
+OzOs<option value="ozos">OzOs</option>
+P!tux<option value="drinou">P!tux</option>
+PAIPIX<option value="paipix">PAIPIX</option>
+PakOS<option value="pakos">PakOS</option>
+paldo<option value="paldo">paldo</option>
+PapugLinux<option value="papug">PapugLinux</option>
+Parabola<option value="parabola">Parabola</option>
+Pardus<option value="pardus">Pardus</option>
+Pardus Topluluk<option value="pardustopluluk">Pardus Topluluk</option>
+Parrot<option value="parrot">Parrot</option>
+Parsix<option value="parsix">Parsix</option>
+Parslinux<option value="parslinux">Parslinux</option>
+Parted Magic<option value="partedmagic">Parted Magic</option>
+PCLinuxOS<option value="pclinuxos">PCLinuxOS</option>
+Peach OSI<option value="peachosi">Peach OSI</option>
+Peachtree<option value="peachtree">Peachtree</option>
+Pear<option value="pear">Pear</option>
+Pearl<option value="pearl">Pearl</option>
+PelicanHPC<option value="pelicanhpc">PelicanHPC</option>
+Penguin Sleuth<option value="penguinsleuth">Penguin Sleuth</option>
+Pentoo<option value="pentoo">Pentoo</option>
+Peppermint<option value="peppermint">Peppermint</option>
+Pequelin<option value="pequelin">Pequelin</option>
+Peropesis<option value="peropesis">Peropesis</option>
+pfSense<option value="pfsense">pfSense</option>
+Phaeronix<option value="phaeronix">Phaeronix</option>
+Phayoune<option value="phayoune">Phayoune</option>
+Phinx<option value="phinx">Phinx</option>
+PHLAK<option value="phlak">PHLAK</option>
+Photon<option value="photonos">Photon</option>
+PHP Sol<option value="phpsol">PHP Sol</option>
+PiBang<option value="pibang">PiBang</option>
+Pidora<option value="pidora">Pidora</option>
+Pie Box<option value="piebox">Pie Box</option>
+Pilot<option value="pilot">Pilot</option>
+Pingo<option value="pingo">Pingo</option>
+Pinguy<option value="pinguy">Pinguy</option>
+Pingwinek<option value="pingwinek">Pingwinek</option>
+Pioneer<option value="pioneer">Pioneer</option>
+Pisi<option value="pisi">Pisi</option>
+Plamo<option value="plamo">Plamo</option>
+Plan-B<option value="planb">Plan-B</option>
+PLD<option value="pld">PLD</option>
+Plop<option value="plop">Plop</option>
+Point<option value="point">Point</option>
+Polar Bear<option value="polarbear">Polar Bear</option>
+PoliArch<option value="poliarch">PoliArch</option>
+Pop!_OS<option value="popos">Pop!_OS</option>
+Porteus<option value="porteus">Porteus</option>
+Porteus Kiosk<option value="porteuskiosk">Porteus Kiosk</option>
+Poseidon<option value="poseidon">Poseidon</option>
+postmarketOS<option value="postmarketos">postmarketOS</option>
+pQui<option value="pqui">pQui</option>
+PrimTux<option value="primtux">PrimTux</option>
+Privatix<option value="privatix">Privatix</option>
+Progeny<option value="progeny">Progeny</option>
+Progex<option value="progex">Progex</option>
+Project dEv<option value="projectdev">Project dEv</option>
+Protech<option value="protech">Protech</option>
+Proxmox<option value="proxmox">Proxmox</option>
+Puppy<option value="puppy">Puppy</option>
+Puredyne<option value="puredyne">Puredyne</option>
+PureOS<option value="pureos">PureOS</option>
+Q4OS<option value="q4os">Q4OS</option>
+QiLinux<option value="qilinux">QiLinux</option>
+Qimo<option value="qimo">Qimo</option>
+Qomo<option value="qomo">Qomo</option>
+Quantian<option value="quantian">Quantian</option>
+Qubes<option value="qubes">Qubes</option>
+Quirky<option value="quirky">Quirky</option>
+Rails Live<option value="railslive">Rails Live</option>
+RancherOS<option value="rancheros">RancherOS</option>
+RaspBSD<option value="raspbsd">RaspBSD</option>
+RasPiOS<option value="raspios">RasPiOS</option>
+RasPlex<option value="rasplex">RasPlex</option>
+RAYS<option value="sunwah">RAYS</option>
+RDS<option value="rds">RDS</option>
+ReactOS<option value="reactos">ReactOS</option>
+RebeccaBlackOS<option value="rebeccablackos">RebeccaBlackOS</option>
+Rebellin<option value="rebellin">Rebellin</option>
+RebornOS<option value="rebornos">RebornOS</option>
+Recalbox<option value="recalbox">Recalbox</option>
+Red Flag<option value="redflag">Red Flag</option>
+Red Hat<option value="redhat">Red Hat</option>
+Red Office<option value="redoffice">Red Office</option>
+Redcore<option value="redcore">Redcore</option>
+Redo<option value="redo">Redo</option>
+redWall<option value="redwall">redWall</option>
+Refracta<option value="refracta">Refracta</option>
+Regata<option value="regata">Regata</option>
+RemixOS<option value="remixos">RemixOS</option>
+REMnux<option value="remnux">REMnux</option>
+Resala<option value="resala">Resala</option>
+Rescatux<option value="rescatux">Rescatux</option>
+Rescuezilla<option value="rescuezilla">Rescuezilla</option>
+Resulinux<option value="resulinux">Resulinux</option>
+Revenge<option value="revengeos">Revenge</option>
+RIPLinuX<option value="rip">RIPLinuX</option>
+RISC<option value="risc">RISC</option>
+risiOS<option value="risios">risiOS</option>
+Robolinux<option value="robolinux">Robolinux</option>
+ROCK<option value="rock">ROCK</option>
+Rocks Cluster<option value="rockscluster">Rocks Cluster</option>
+Rockstor<option value="rockstor">Rockstor</option>
+Rocky<option value="rocky">Rocky</option>
+RoFreeSBIE<option value="rofreesbie">RoFreeSBIE</option>
+ROOT<option value="root">ROOT</option>
+ROSA<option value="rosa">ROSA</option>
+ROSLIMS<option value="roslims">ROSLIMS</option>
+rPath<option value="rpath">rPath</option>
+RSS<option value="rss">RSS</option>
+Rubix<option value="rubix">Rubix</option>
+RUNT<option value="runt">RUNT</option>
+Runtu<option value="runtu">Runtu</option>
+Sabayon<option value="sabayon">Sabayon</option>
+Sabily<option value="sabily">Sabily</option>
+SalentOS<option value="salentos">SalentOS</option>
+Salient<option value="salient">Salient</option>
+SalineOS<option value="saline">SalineOS</option>
+Salix<option value="salix">Salix</option>
+Saluki<option value="saluki">Saluki</option>
+Salvare<option value="salvare">Salvare</option>
+SAMity<option value="samity">SAMity</option>
+Santa Fe<option value="santafe">Santa Fe</option>
+Satux<option value="satux">Satux</option>
+SaxenOS<option value="saxenos">SaxenOS</option>
+SchilliX<option value="schillix">SchilliX</option>
+SCI.Linux<option value="sci">SCI.Linux</option>
+Scientific<option value="scientific">Scientific</option>
+SCO<option value="sco">SCO</option>
+Secure-K<option value="securek">Secure-K</option>
+Securepoint<option value="securepoint">Securepoint</option>
+SELKS<option value="selks">SELKS</option>
+Semplice<option value="semplice">Semplice</option>
+SENTINIX<option value="sentinix">SENTINIX</option>
+Sentry Firewall<option value="sentryfirewall">Sentry Firewall</option>
+Septor<option value="septor">Septor</option>
+Shabdix<option value="shabdix">Shabdix</option>
+Shark<option value="sharklinux">Shark</option>
+SharkOS<option value="shark">SharkOS</option>
+Shift<option value="shift">Shift</option>
+siduction<option value="siduction">siduction</option>
+Simplicity<option value="simplicity">Simplicity</option>
+Slackel<option value="slackel">Slackel</option>
+Slackintosh<option value="slackintosh">Slackintosh</option>
+Slackware<option value="slackware">Slackware</option>
+Slamd64<option value="slamd64">Slamd64</option>
+SLAMPP<option value="slampp">SLAMPP</option>
+Slavix<option value="slavix">Slavix</option>
+Slax<option value="slax">Slax</option>
+Slint<option value="slint">Slint</option>
+SliTaz<option value="slitaz">SliTaz</option>
+Slix<option value="slix">Slix</option>
+Slo-Tech<option value="slotech">Slo-Tech</option>
+SLYNUX<option value="slynux">SLYNUX</option>
+SmartOS<option value="smartos">SmartOS</option>
+SmartPeer<option value="smartpeer">SmartPeer</option>
+SME Server<option value="smeserver">SME Server</option>
+Smoothwall<option value="smoothwall">Smoothwall</option>
+SMS<option value="sms">SMS</option>
+Snal<option value="snal">Snal</option>
+SNAPPIX<option value="snappix">SNAPPIX</option>
+Snøfrix<option value="snofrix">Snøfrix</option>
+Snowlinux<option value="snowlinux">Snowlinux</option>
+SoL<option value="sol">SoL</option>
+Solaris<option value="solaris">Solaris</option>
+Solus<option value="solus">Solus</option>
+SolusOS<option value="solusos">SolusOS</option>
+SolydXK<option value="solydxk">SolydXK</option>
+Sonar<option value="sonar">Sonar</option>
+Sophos<option value="sophos">Sophos</option>
+Sorcerer<option value="sorcerer">Sorcerer</option>
+Source Mage<option value="sourcemage">Source Mage</option>
+Soyombo<option value="soyombo">Soyombo</option>
+SparkyLinux<option value="sparky">SparkyLinux</option>
+Spectra<option value="spectra">Spectra</option>
+SphinxOS<option value="sphinxos">SphinxOS</option>
+Spiral<option value="spiral">Spiral</option>
+SprezzOS<option value="sprezzos">SprezzOS</option>
+Springdale<option value="springdale">Springdale</option>
+SquiggleOS<option value="squiggleos">SquiggleOS</option>
+Stampede<option value="stampede">Stampede</option>
+Star<option value="star">Star</option>
+StartCom<option value="startcom">StartCom</option>
+StartOS<option value="startos">StartOS</option>
+STD<option value="std">STD</option>
+SteamOS<option value="steamos">SteamOS</option>
+Stella<option value="stella">Stella</option>
+Storm<option value="storm">Storm</option>
+StressLinux<option value="stresslinux">StressLinux</option>
+STUX<option value="stux">STUX</option>
+Subgraph<option value="subgraph">Subgraph</option>
+SuliX<option value="sulix">SuliX</option>
+Sun JDS<option value="sunjds">Sun JDS</option>
+Super Grub2<option value="supergrub">Super Grub2</option>
+Super OS<option value="superos">Super OS</option>
+SuperGamer<option value="supergamer">SuperGamer</option>
+SuperRescue<option value="superrescue">SuperRescue</option>
+SuperX<option value="superx">SuperX</option>
+Suriyan<option value="suriyan">Suriyan</option>
+SUSE<option value="sle">SUSE</option>
+SwagArch<option value="swagarch">SwagArch</option>
+Swecha<option value="swecha">Swecha</option>
+Swift<option value="swift">Swift</option>
+Syllable<option value="syllable">Syllable</option>
+SymphonyOS<option value="symphony">SymphonyOS</option>
+SysLinuxOS<option value="syslinuxos">SysLinuxOS</option>
+SystemRescue<option value="systemrescue">SystemRescue</option>
+T2<option value="t2">T2</option>
+TA-Linux<option value="ta">TA-Linux</option>
+Tablix<option value="tablix">Tablix</option>
+Tails<option value="tails">Tails</option>
+TalkingArch<option value="talkingarch">TalkingArch</option>
+Tanglu<option value="tanglu">Tanglu</option>
+Tango Studio<option value="tangostudio">Tango Studio</option>
+Tao<option value="tao">Tao</option>
+Taprobane<option value="taprobane">Taprobane</option>
+Tech<option value="tech">Tech</option>
+TENS<option value="tens">TENS</option>
+TFM<option value="tfm">TFM</option>
+Thinstation<option value="thinstation">Thinstation</option>
+Thisk<option value="thisk">Thisk</option>
+Thiz<option value="thiz">Thiz</option>
+Tilix<option value="tilix">Tilix</option>
+Tiny Core<option value="tinycore">Tiny Core</option>
+TinyMe<option value="tinyme">TinyMe</option>
+tinysofa<option value="tinysofa">tinysofa</option>
+ToOpPy<option value="tooppy">ToOpPy</option>
+Toorox<option value="toorox">Toorox</option>
+Topologilinux<option value="topologilinux">Topologilinux</option>
+ToriOS<option value="torios">ToriOS</option>
+Toutou<option value="toutou">Toutou</option>
+TPM<option value="thepacketmaster">TPM</option>
+TrianceOS<option value="triance">TrianceOS</option>
+Trident<option value="trident">Trident</option>
+Trinity<option value="trinity">Trinity</option>
+Trisquel<option value="trisquel">Trisquel</option>
+trixbox<option value="trixbox">trixbox</option>
+Troppix<option value="troppix">Troppix</option>
+TrueBSD<option value="truebsd">TrueBSD</option>
+TrueNAS<option value="truenas">TrueNAS</option>
+TrueOS<option value="trueos">TrueOS</option>
+Trustix<option value="trustix">Trustix</option>
+Truva<option value="truva">Truva</option>
+TrX<option value="trx">TrX</option>
+Tugux<option value="tugux">Tugux</option>
+TumiX<option value="tumix">TumiX</option>
+TupiServer<option value="tupiserver">TupiServer</option>
+Tuquito<option value="tuquito">Tuquito</option>
+Turbolinux<option value="turbolinux">Turbolinux</option>
+Turkix<option value="turkix">Turkix</option>
+TurnKey<option value="turnkey">TurnKey</option>
+TUXEDO<option value="tuxedo">TUXEDO</option>
+tuxtrans<option value="tuxtrans">tuxtrans</option>
+U-lite<option value="ulite">U-lite</option>
+UberStudent<option value="uberstudent">UberStudent</option>
+UBOS<option value="ubos">UBOS</option>
+UBports<option value="ubports">UBports</option>
+Ubuntu<option value="ubuntu">Ubuntu</option>
+Ubuntu Budgie<option value="ubuntubudgie">Ubuntu Budgie</option>
+Ubuntu Christian<option value="ubuntuce">Ubuntu Christian</option>
+Ubuntu Cinnamon<option value="ubuntucinnamon">Ubuntu Cinnamon</option>
+Ubuntu DP<option value="ubuntudp">Ubuntu DP</option>
+Ubuntu GNOME<option value="ubuntugnome">Ubuntu GNOME</option>
+Ubuntu Kylin<option value="ubuntukylin">Ubuntu Kylin</option>
+Ubuntu MATE<option value="ubuntumate">Ubuntu MATE</option>
+Ubuntu Rescue<option value="ubunturescue">Ubuntu Rescue</option>
+Ubuntu Studio<option value="ubuntustudio">Ubuntu Studio</option>
+Ubuntu Unity<option value="ubuntuunity">Ubuntu Unity</option>
+Ufficio Zero<option value="ufficiozero">Ufficio Zero</option>
+UHU-Linux<option value="uhu">UHU-Linux</option>
+Ulteo<option value="ulteo">Ulteo</option>
+Ultima<option value="ultima">Ultima</option>
+Ultimate<option value="ultimate">Ultimate</option>
+Ultramarine<option value="ultramarine">Ultramarine</option>
+Underground<option value="underground">Underground</option>
+United<option value="united">United</option>
+Unity<option value="unity">Unity</option>
+Univention<option value="univention">Univention</option>
+Untangle<option value="untangle">Untangle</option>
+uOS<option value="uos">uOS</option>
+URIX<option value="urix">URIX</option>
+Uruk<option value="uruk">Uruk</option>
+Userful<option value="userful">Userful</option>
+UserLinux<option value="userlinux">UserLinux</option>
+UTUTO<option value="ututo">UTUTO</option>
+Vanilla<option value="vanilla">Vanilla</option>
+VAST<option value="vast">VAST</option>
+Vector<option value="vector">Vector</option>
+VenenuX<option value="venenux">VenenuX</option>
+Venom<option value="venom">Venom</option>
+VideoLinux<option value="videolinux">VideoLinux</option>
+Vine<option value="vine">Vine</option>
+Vinux<option value="vinux">Vinux</option>
+Virtual<option value="virtual">Virtual</option>
+ViruX<option value="virux">ViruX</option>
+VLOS<option value="vlos">VLOS</option>
+VMKnoppix<option value="vmknoppix">VMKnoppix</option>
+VNLinux<option value="vnlinux">VNLinux</option>
+Void<option value="void">Void</option>
+Voltalinux<option value="voltalinux">Voltalinux</option>
+Volumio<option value="volumio">Volumio</option>
+Voodoo<option value="voodoo">Voodoo</option>
+VortexBox<option value="vortexbox">VortexBox</option>
+Voyager<option value="voyager">Voyager</option>
+Vyatta<option value="vyatta">Vyatta</option>
+VyOS<option value="vyos">VyOS</option>
+VzLinux<option value="vz">VzLinux</option>
+wattOS<option value="wattos">wattOS</option>
+Wazobia<option value="wazobia">Wazobia</option>
+Webconverger<option value="webconverger">Webconverger</option>
+WHAX<option value="whoppix">WHAX</option>
+White Box<option value="whitebox">White Box</option>
+Whonix<option value="whonix">Whonix</option>
+WIENUX<option value="wienux">WIENUX</option>
+Wifislax<option value="wifislax">Wifislax</option>
+WinBi<option value="winbi">WinBi</option>
+WM Live<option value="wmlive">WM Live</option>
+Wolvix<option value="wolvix">Wolvix</option>
+WOMP!<option value="womp">WOMP!</option>
+WOW<option value="wow">WOW</option>
+X-Evian<option value="xevian">X-Evian</option>
+X/OS<option value="xos">X/OS</option>
+Xandros<option value="xandros">Xandros</option>
+Xarnoppix<option value="xarnoppix">Xarnoppix</option>
+XeroLinux<option value="xero">XeroLinux</option>
+Xfld<option value="xfld">Xfld</option>
+XigmaNAS<option value="xigmanas">XigmaNAS</option>
+xPUD<option value="xpud">xPUD</option>
+XStreamOS<option value="xstreamos">XStreamOS</option>
+Xteam<option value="xteam">Xteam</option>
+Xubuntu<option value="xubuntu">Xubuntu</option>
+Yellow Dog<option value="yellowdog">Yellow Dog</option>
+YES<option value="youresale">YES</option>
+Yoper<option value="yoper">Yoper</option>
+YunoHost<option value="yunohost">YunoHost</option>
+Zen<option value="zen">Zen</option>
+Zencafe<option value="zencafe">Zencafe</option>
+ZENIX<option value="zenix">ZENIX</option>
+Zentyal<option value="zentyal">Zentyal</option>
+Zenwalk<option value="zenwalk">Zenwalk</option>
+Zephix<option value="zephix">Zephix</option>
+ZerahStar<option value="zerahstar">ZerahStar</option>
+Zeroshell<option value="zeroshell">Zeroshell</option>
+Zeus<option value="zeus">Zeus</option>
+Zevenet<option value="zevenet">Zevenet</option>
+ZevenOS<option value="zevenos">ZevenOS</option>
+ZoneCD<option value="zonecd">ZoneCD</option>
+Zopix<option value="zopix">Zopix</option>
+Zorin<option value="zorin">Zorin</option>
+</select> <b>Release: </b> <select name="release"><option value="all">All</option><option value="stable">Stable</option></select> <b>Month: </b> <select name="month"><option value="all">All</option><option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option>
+</select> <b>Year: </b> <select name="year"><option value="all">All</option><option value="2001">2001</option>
+<option value="2002">2002</option>
+<option value="2003">2003</option>
+<option value="2004">2004</option>
+<option value="2005">2005</option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+</select>
+ <input type="submit" value="Refresh">
+</form>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-24</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11830"></a><a href="weekly.php?issue=20230424">DistroWatch Weekly, Issue 1016</a></td>
+      </tr>
+      <tr>
+        <td class="NewsLogo"><a href="weekly.php?issue=20230424"><img src="images/yvzhuwbpy/skoi.png" border="0" title="DistroWatch Weekly" align="middle" /></a></td>
+        <td class="NewsText" style="font-size: 15px">This week in <a href="weekly.php?issue=20230424">DistroWatch Weekly</a>: <ul><li><a href="weekly.php?issue=20230424#qubes">Review: Qubes OS 4.1.2</a><li><a href="weekly.php?issue=20230424#news">News: Ubuntu improves Snap performance, Solus plans to resume development, Manjaro fixes installer bugs, FreeBSD publishes status report, KaOS celebrates its tenth anniversary</a><li><a href="weekly.php?issue=20230424#qa">Questions and answers: Tracking bandwidth usage</a><li><a href="weekly.php?issue=20230424#released">Released last week: Fedora 38, Ubuntu 23.04, deepin 20.9</a><li><a href="weekly.php?issue=20230424#torrent">Torrent corner: Fedora, KDE neon, Lubuntu, Tails, Ubuntu</a><li><a href="weekly.php?issue=20230424#poll">Opinion poll: Monitoring network usage</a><li><a href="weekly.php?issue=20230424#waiting">New distributions: PorteuX, GetFreeOS</a><li><a href="weekly.php?issue=20230424#comments">Reader comments</a></ul> Read more in this week's issue of <a href="weekly.php?issue=20230424">DistroWatch Weekly....</a></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-22</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11829"></a><a href="11829">Distribution Release: blendOS 2023.04.22</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="blendos"><img src="images/yvzhuwbpy/blendos.png" border="0" title="blendOS" align="middle" /></a>
+<br><br><a href="images/slinks/blendos.png"><img src="images/slinks/blendos-small.png" border=0 title"blendOS" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=blendos">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px"><a href="blendos">blendOS</a> is an Arch Linux-based, rolling release distribution which automates installing software from supported distributions (Arch, Fedora, and Ubuntu) into containers. The project's latest snapshot replaces distrobox containers with podman. It is now also easier to install software from Arch straight onto the host distribution. "<span class="Quote">In addition to the apps available in containers, it’s now possible to install apps straight from the system Arch repos and the Chaotic-AUR repository, on the base itself. This is extremely useful if you want to install a third-party VPN app, for example, or some missing drivers. distrobox has been replaced in favor of our own implementation, using podman directly, built as part of blend, as it was impossible to implement certain features mentioned below using distrobox. Applications and binaries installed in containers now automatically and instantaneously appear on the base system, as expected from a blend of distributions.</span> Additional information can be found in the project's <a href="https://blendos.co/blend-os-v2/">release announcement</a>. <a href="https://sourceforge.net/projects/blendos/files/23.04-1/">Download</a> (<a href="https://sourceforge.net/projects/blendos/files/23.04-1/">MD5</a>)</a>, <a href="table.php?distribution=blendos&amp;pkglist=true&amp;version=2023.04.22#pkglist">pkglist</a>): <a href="https://downloads.sourceforge.net/blendos/blendOS-2023.04.22-x86_64-plasma.iso">blendOS-2023.04.22-x86_64-plasma.iso</a> (3,029MB), <a href="https://downloads.sourceforge.net/blendos/blendOS-2023.04.22-x86_64-gnome.iso">blendOS-2023.04.22-x86_64-gnome.iso</a> (2,843MB).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-22</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11828"></a><a href="11828">Distribution Release: Manjaro Linux 22.1.0</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="manjaro"><img src="images/yvzhuwbpy/manjaro.png" border="0" title="Manjaro Linux" align="middle" /></a>
+<br><br><a href="images/slinks/manjaro.png"><img src="images/slinks/manjaro-small.png" border=0 title"Manjaro Linux" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=manjaro">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px">Philip Müller has announced the release of <a href="manjaro">Manjaro</a> Linux 22.1.0, an updated build of the project's rolling-release distribution set with a choice of KDE Plasma, Xfce and GNOME desktops, as well as several community flavours (with Budgie, Cinnamon, i3, MATE and Sway): "<span class="Quote">Since we released 'Sikaris' in December 2022, we worked hard to get the next release of Manjaro out there. We call it 'Talos'. The GNOME edition has received several updates to GNOME 43 series. It includes a lot of fixes and polish when GNOME 43 was originally released in September 2022. It comes with a redesigned system status menu, which allows quickly changing commonly-used settings. Settings which previously required digging into menus can now be changed with a click of button. The new design also makes it easy to see the status of your settings at a glance. Our in-house Layouts Switcher application has gained some new features as well as various improvements and fixes - now you can create your own dynamic wallpaper. With Gradience you can customize your theme from within the application. There are many presets available to choose from or you can create your own.</span>" Continue to the <a href="https://forum.manjaro.org/t/manjaro-22-1-talos-released/139155">release announcement</a> for more information. <a href="https://manjaro.org/download/">Download</a> (<a href="table.php?distribution=manjaro&pkglist=true&version=22.1.0#pkglist">pkglist</a>): <a href="https://download.manjaro.org/kde/22.1.0/manjaro-kde-22.1.0-230421-linux61.iso">manjaro-kde-22.1.0-230421-linux61.iso</a> (3,981MB, <a href="https://download.manjaro.org/kde/22.1.0/manjaro-kde-22.1.0-230421-linux61.iso.sha256">SHA256</a>, <a href="https://download.manjaro.org/kde/22.1.0/manjaro-kde-22.1.0-230421-linux61.iso.sig">signature</a>, <a href="https://download.manjaro.org/kde/22.1.0/manjaro-kde-22.1.0-230421-linux61.iso.torrent">torrent</a>), <a href="https://download.manjaro.org/xfce/22.1.0/manjaro-xfce-22.1.0-230421-linux61.iso">manjaro-xfce-22.1.0-230421-linux61.iso</a> (3,857MB, <a href="https://download.manjaro.org/xfce/22.1.0/manjaro-xfce-22.1.0-230421-linux61.iso.sha256">SHA256</a>, <a href="https://download.manjaro.org/xfce/22.1.0/manjaro-xfce-22.1.0-230421-linux61.iso.sig">signature</a>, <a href="https://download.manjaro.org/xfce/22.1.0/manjaro-xfce-22.1.0-230421-linux61.iso.torrent">torrent</a>), <a href="https://download.manjaro.org/gnome/22.1.0/manjaro-gnome-22.1.0-230421-linux61.iso">manjaro-gnome-22.1.0-230421-linux61.iso</a> (3,893MB, <a href="https://download.manjaro.org/gnome/22.1.0/manjaro-gnome-22.1.0-230421-linux61.iso.sha256">SHA256</a>, <a href="https://download.manjaro.org/gnome/22.1.0/manjaro-gnome-22.1.0-230421-linux61.iso.sig">signature</a>, <a href="https://download.manjaro.org/gnome/22.1.0/manjaro-gnome-22.1.0-230421-linux61.iso.torrent">torrent</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-21</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11827"></a><a href="11827">Distribution Release: Voyager Live 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="voyager"><img src="images/yvzhuwbpy/voyager.png" border="0" title="Voyager Live" align="middle" /></a>
+<br><br><a href="images/slinks/voyager.png"><img src="images/slinks/voyager-small.png" border=0 title"Voyager Live" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=voyager">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px"><a href="voyager">Voyager Live</a> is an Ubuntu-based distribution featuring the GNOME and Xfce desktop environments. The project's latest release merges its two desktop editions into one which allows the user to select their session at login time. An English translation of the French <a href="https://voyagerlive.org/voyager-23-04/">release announcement</a> reads: "<span class="Quote">This version is based on the Linux kernel 6.2 and the Ubuntu distribution 'Lunar Lobster' with its novelties. Voyager 23.04 has been compressed with zstd instead of xv for more speed on USB keys. 23.04 is an intermediate release with 9 months of support that prepares for the future 5 year LTS (long-term support) release that will arrive shortly for GNOME and Xfce. With integrated options grouped in the box like Conky Control, Effects, Repair, Screencast, Switch Ubuntu, WINE development and Steam gaming, and GNOME extensions selected according to PC needs. A Special Gaming type GS profile has been created in Xfce. With numerous themes and wallpapers and essential software. This release contains Software - GNOME Software, which was preferred over Ubuntu's, to manage Deb, Snap and Flatpack packages together. Firefox was installed as a Deb package for better compatibility with GNOME extensions and many other new features to discover like Scrcpy to have your smartphone screen on the PC.</span>" <a href="https://sourceforge.net/projects/voyagerlive/files/">Download (MD5)</a>: <a href="https://downloads.sourceforge.net/voyagerlive/Voyager-23.04-amd64.iso">Voyager-23.04-amd64.iso</a> (4,291MB, <a href="table.php?distribution=voyager&pkglist=true&version=23.04#pkglist">pkglist</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-21</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11826"></a><a href="11826">Distribution Release: Ubuntu Kylin 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="ubuntukylin"><img src="images/yvzhuwbpy/ubuntukylin.png" border="0" title="Ubuntu Kylin" align="middle" /></a>
+<br><br><a href="images/slinks/ubuntukylin.png"><img src="images/slinks/ubuntukylin-small.png" border=0 title"Ubuntu Kylin" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=ubuntukylin">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px"><a href="ubuntukylin">Ubuntu Kylin</a> is an Ubuntu community edition optimized for Chinese speakers. The project's latest release, version 23.04, offers nine moths of support, version 6.2 of the Linux kernel, and an updated Mesa graphics driver. The release announcement (<a href="https://www.ubuntukylin.com/news/1788-cn.html">Chinese</a>, <a href="https://www.ubuntukylin.com/news/ubuntukylin2304-en.html">English</a>) reads: "<span class="Quote">On April 21, 2023, the Ubuntu Kylin team announced the release of Ubuntu Kylin open-source operating system, version 23.04. As a short-term support release, Ubuntu Kylin 23.04 comes with Linux 6.2 kernel and Mesa 23.0 graphics driver by default, and is fully upgraded with a series of core system software and base libraries. This version is mainly used to provide a development and testing platform for developers and you are welcome to download and use it. Full core software upgrade: Mozilla Firefox 111; Thunderbird 102; LibreOffice 7.5; Shotwell 0.30.17; Remmina 1.4.29; Transmission 3.0. Comprehensive upgrade of the base libraries: Python 3.11; Binutils 2.40; Ruby 3.1; golang 1.20; glibc 2.37; GCC 13; LLVM 16.</span>" <a href="https://www.ubuntukylin.com/downloads/download-en.html">Download</a>: <a href="https://cdimage.ubuntu.com/ubuntukylin/releases/23.04/release/ubuntukylin-23.04-desktop-amd64.iso">ubuntukylin-23.04-desktop-amd64.iso</a> (6,208MB, <a href="https://cdimage.ubuntu.com/ubuntukylin/releases/23.04/release/SHA256SUMS">SHA256</a>, <a href="https://cdimage.ubuntu.com/ubuntukylin/releases/23.04/release/SHA256SUMS.gpg">signature</a>, <a href="https://cdimage.ubuntu.com/ubuntukylin/releases/23.04/release/ubuntukylin-23.04-desktop-amd64.iso.torrent">torrent</a>, <a href="table.php?distribution=ubuntukylin&amp;pkglist=true&amp;version=23.04#pkglist">pkglist</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-21</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11825"></a><a href="11825">Distribution Release: Lubuntu 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="lubuntu"><img src="images/yvzhuwbpy/lubuntu.png" border="0" title="Lubuntu" align="middle" /></a>
+<br><br><a href="images/slinks/lubuntu.png"><img src="images/slinks/lubuntu-small.png" border=0 title"Lubuntu" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=lubuntu">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px">The <a href="lubuntu">Lubuntu</a> team have announced the launch of Lubuntu 23.04, an interm release which will receive nine months of updates. Several of the changes in version 23.04 include the visual look and effects offered by the LXQt desktop: "<span class="Quote">Lubuntu previously used the PulseAudio audio system to provide rich audio functionality to our users. However, recently Ubuntu and its flavors have been gradually shifting to using the PipeWire audio server in place of PulseAudio. PipeWire offers several advantages over PulseAudio, including improved Bluetooth support, and more powerful management features for complex audio-related workloads. In order to offer these improved features to our users, Lubuntu has replaced the PulseAudio audio system with PipeWire in Lubuntu 23.04. Since Lubuntu 20.04, the default screensaver has been 'Flurry'. Due to reports of screensaver glitches on certain hardware, we have switched the default screensaver in Lubuntu to GL Matrix. This screensaver features a 3D “digital rain” effect that we have found to be aesthetically pleasing.</span>" Additional information is provided in the project's <a href="https://lubuntu.me/lunar-released/">release announcement</a> and in the <a href="https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910">release notes</a>. <a href="https://lubuntu.me/downloads/">Download</a>: <a href="https://cdimage.ubuntu.com/lubuntu/releases/23.04/release/lubuntu-23.04-desktop-amd64.iso">lubuntu-23.04-desktop-amd64.iso</a> (2,956MB, <a href="https://cdimage.ubuntu.com/lubuntu/releases/23.04/release/SHA256SUMS">SHA256</a>, <a href="https://cdimage.ubuntu.com/lubuntu/releases/23.04/release/SHA256SUMS.gpg">signature</a>, <a href="https://cdimage.ubuntu.com/lubuntu/releases/23.04/release/lubuntu-23.04-desktop-amd64.iso.torrent">torrent</a>, <a href="table.php?distribution=lubuntu&amp;pkglist=true&amp;version=23.04#pkglist">pkglist</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-21</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11824"></a><a href="11824">Distribution Release: Ubuntu Unity 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="ubuntuunity"><img src="images/yvzhuwbpy/ubuntuunity.png" border="0" title="Ubuntu Unity" align="middle" /></a>
+<br><br><a href="images/slinks/ubuntuunity.png"><img src="images/slinks/ubuntuunity-small.png" border=0 title"Ubuntu Unity" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=ubuntuunity">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px">Rudra Saraswat has announced the availability of <a href="ubuntuunity">Ubuntu Unity</a> 23.04, a new version of the official Ubuntu flavour featuring the Unity desktop. The new release upgrades Unity to version 7.7: "<span class="Quote">Ubuntu Unity 23.04 'Lunar Lobster' has now been released. It is the first distribution to ship Unity 7.7 out of the box, and brings many improvements to the table, including: a brand-new dash, similar to that displayed in the concepts designed for Ubuntu 16.04; a slightly bigger panel, that is translucent by default and looks much better in light mode; indicator-notification is installed by default, and allows you to see any notifications that may have popped up while you were away; the official widgets implementation, UWidgets, is now supported. And some changes: the Settings app's shell UI has been drastically improved; the launcher BFB is now half-transparent, and fits in with the rest of the default Yaru icons, similar to Ubuntu Unity's custom BFB for Unity 7.5 in 21.04.</span>" Continue to the <a href="https://ubuntuunity.org/blog/ubuntu-unity-23.04/">release announcement</a> for further information. <a href="https://ubuntuunity.org/download/">Download</a>: <a href="https://cdimage.ubuntu.com/ubuntu-unity/releases/23.04/release/ubuntu-unity-23.04-desktop-amd64.iso">ubuntu-unity-23.04-desktop-amd64.iso</a> (3,141MB, <a href="https://cdimage.ubuntu.com/ubuntu-unity/releases/23.04/release/SHA256SUMS">SHA256</a>, <a href="https://cdimage.ubuntu.com/ubuntu-unity/releases/23.04/release/SHA256SUMS.gpg">signature</a>, <a href="https://cdimage.ubuntu.com/ubuntu-unity/releases/23.04/release/ubuntu-unity-23.04-desktop-amd64.iso.torrent">torrent</a>, <a href="table.php?distribution=ubuntuunity&pkglist=true&version=23.04#pkglist">pkglist</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-21</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11823"></a><a href="11823">Distribution Release: Edubuntu 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="edubuntu"><img src="images/yvzhuwbpy/edubuntu.png" border="0" title="Edubuntu" align="middle" /></a>
+<br><br><a href="images/slinks/edubuntu.png"><img src="images/slinks/edubuntu-small.png" border=0 title"Edubuntu" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=edubuntu">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px">Amy Eickmeyer has announced the availability of <a href="edubuntu">Edubuntu</a> 23.04, a brand-new release from the project that seeks to bring the freedom of the Linux desktop and the vast library of open source education software into the classroom. Edubuntu has been revived after a 9-year hiatus. The <a href="https://discourse.ubuntu.com/t/edubuntu-23-04-released/35281">release announcement</a>, which includes several screenshots, lists some of the more interesting features: "<span class="Quote">By default, Edubuntu's application overview is alphabetized, which makes it a learning tool out-of-the-box so students can see an example of alphabetization and cataloging. Additionally, educational applications are grouped into folders by subject, making the application overview easy to navigate. Using Edubuntu Installer, you can configure the system for a certain age group, whether that be preschool, primary (elementary), secondary (middle/high school) or tertiary (college/university). Each configuration comes with a different set of applications and a different layout and default wallpaper. Using Edubuntu Menu Administrator, administrators can configure which applications are hidden for non-administrator users with the check of a box.</span>" <a href="https://www.edubuntu.org/download">Download</a> link: <a href="https://cdimage.ubuntu.com/edubuntu/releases/23.04/release/edubuntu-23.04-desktop-amd64.iso">edubuntu-23.04-desktop-amd64.iso</a> (5,312MB, <a href="https://cdimage.ubuntu.com/edubuntu/releases/23.04/release/SHA256SUMS">SHA256</a>, <a href="https://cdimage.ubuntu.com/edubuntu/releases/23.04/release/SHA256SUMS.gpg">signature</a>, <a href="https://cdimage.ubuntu.com/edubuntu/releases/23.04/release/edubuntu-23.04-desktop-amd64.iso.torrent">torrent</a>, <a href="table.php?distribution=edubuntu&amp;pkglist=true&amp;version=23.04#pkglist">pkglist</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-21</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11822"></a><a href="11822">Distribution Release: Xubuntu 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="xubuntu"><img src="images/yvzhuwbpy/xubuntu.png" border="0" title="Xubuntu" align="middle" /></a>
+<br><br><a href="images/slinks/xubuntu.png"><img src="images/slinks/xubuntu-small.png" border=0 title"Xubuntu" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=xubuntu">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px">Sean Davis has announced the release of <a href="xubuntu">Xubuntu</a> 23.04, the latest version from the project integrating the Xfce desktop with a base Ubuntu system. This release revives the concept of a "minimal" Xfce system (formerly known as "Xubuntu Core"): "<span class="Quote">The Xubuntu team is happy to announce the immediate release of Xubuntu 23.04. Xubuntu 23.04 features the latest Xfce 4.18. Xfce 4.18 delivers a stable desktop environment with a number of performance improvements and new features to enjoy. In particular, the Thunar file manager benefits from a new image preview feature, undo and redo functionality, file highlights and recursive search. Xubuntu 23.04 also welcomes Xubuntu Minimal as an official subproject. Xubuntu Minimal is a slimmed-down version of Xubuntu that only includes the bare essentials: the desktop, a few Xfce components and the Xubuntu look and feel. Long-time Xubuntu fans may better know this as Xubuntu Core. After nearly eight years of being a supported, but community-built project, we're happy to finally publish downloads along with the main Xubuntu edition.</span>" See the <a href="https://xubuntu.org/news/xubuntu-23-04-released/">release announcement</a> and the detailed <a href="https://wiki.xubuntu.org/releases/23.04/release-notes">release notes</a> for more information. <a href="https://xubuntu.org/download/">Download</a> (<a href="https://cdimage.ubuntu.com/xubuntu/releases/23.04/release/SHA256SUMS">SHA256</a>, <a href="https://cdimage.ubuntu.com/xubuntu/releases/23.04/release/SHA256SUMS.gpg">signature</a>, <a href="table.php?distribution=xubuntu&amp;pkglist=true&amp;version=23.04#pkglist">pkglist</a>): <a href="https://cdimage.ubuntu.com/xubuntu/releases/23.04/release/xubuntu-23.04-desktop-amd64.iso">xubuntu-23.04-desktop-amd64.iso</a> (3,101MB, <a href="https://cdimage.ubuntu.com/xubuntu/releases/23.04/release/xubuntu-23.04-desktop-amd64.iso.torrent">torrent</a>), <a href="https://cdimage.ubuntu.com/xubuntu/releases/23.04/release/xubuntu-23.04-minimal-amd64.iso">xubuntu-23.04-desktop-amd64.iso</a> (1,770MB,  <a href="https://cdimage.ubuntu.com/xubuntu/releases/23.04/release/xubuntu-23.04-minimal-amd64.iso.torrent">torrent</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-21</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11821"></a><a href="11821">Distribution Release: Ubuntu Studio 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="ubuntustudio"><img src="images/yvzhuwbpy/ubuntustudio.png" border="0" title="Ubuntu Studio" align="middle" /></a>
+<br><br><a href="images/slinks/ubuntustudio.png"><img src="images/slinks/ubuntustudio-small.png" border=0 title"Ubuntu Studio" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=ubuntustudio">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px"><a href="ubuntustudio">Ubuntu Studio</a> is a multimedia-focused commuity edition of Ubuntu. The project has published a new release, Ubuntu Studio 23.04, which offers nine months of support. The new version includes KDE Plasma 5.27 and the PipeWire audio server. The distribution also includes a new system installer: "<span class="Quote">Ubuntu Studio Installer has been completely rewritten from the ground-up and works better on high-DPI displays. It utilizes the Zenity GTK interface to give users a choice of package selection and is even capable of uninstalling entire groups of packages. Ubuntu Studio Installer can still be used to add or remove the Ubuntu Studio Backports PPA as well as switch between the new PipeWire configuration or the traditional PulseAudio/JACK configuration of past releases (which also installs Studio Controls). Wayland is available and installed by default to select upon login and test but is still unsupported. We have done this at the request of KDE so that it can gain more testing and bug reports. We have done our best to configure it with the default theming and to make sure it picks up your settings, but it is possible some things will be missed and not work quite right. However, it has undergone extensive real-world testing and works well on non-NVIDIA systems.</span>" Additional details are presented in the project's <a href="https://ubuntustudio.org/2023/04/ubuntu-studio-23-04-released/">release announcement</a> and in the <a href="https://ubuntustudio.org/ubuntu-studio-23-04-release-notes/">release notes</a>. <a href="https://ubuntustudio.org/download/">Download</a>: <a href="https://cdimage.ubuntu.com/ubuntustudio/releases/23.04/release/ubuntustudio-23.04-dvd-amd64.iso">ubuntustudio-23.04-dvd-amd64.iso</a> (5,429MB, <a href="https://cdimage.ubuntu.com/ubuntustudio/releases/23.04/release/SHA256SUMS">SHA256</a>, <a href="https://cdimage.ubuntu.com/ubuntustudio/releases/23.04/release/SHA256SUMS.gpg">signature</a>, <a href="https://cdimage.ubuntu.com/ubuntustudio/releases/23.04/release/ubuntustudio-23.04-dvd-amd64.iso.torrent">torrent</a>, <a href="table.php?distribution=ubuntustudio&pkglist=true&version=23.04#pkglist">pkglist</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-21</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11820"></a><a href="11820">Distribution Release: Ubuntu Cinnamon 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="ubuntucinnamon"><img src="images/yvzhuwbpy/ubuntucinnamon.png" border="0" title="Ubuntu Cinnamon" align="middle" /></a>
+<br><br><a href="images/slinks/ubuntucinnamon.png"><img src="images/slinks/ubuntucinnamon-small.png" border=0 title"Ubuntu Cinnamon" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=ubuntucinnamon">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px">The <a href="ubuntucinnamon">Ubuntu Cinnamon</a> project has published its eighth release and its first release as an official Ubuntu community edition. Ubuntu Cinnamon 23.04 offers nine months of support, ships with Cinnamon 5.6.7, and polishes the user interface. "<span class="Quote">The 23.04 release is Ubuntu Cinnamon's eighth release (I had to count). Here's to another eight! Ubuntu 23.04 as a base contains the Linux Kernel 6.2 (with Rust modules, yay!), systemd v252.5, an updated Ubuntu font, Firefox 111, LibreOffice 7.5.2 and Thunderbird 102.10, to name a few. Ubuntu Cinnamon ships with Cinnamon 5.6.7 and the rest of the desktop suite. Overall, not much new, but a handful of quality of life and bug fixes. Here are the notable changes: Cinnamon 5.6.7 - (<a href="https://github.com/linuxmint/cinnamon/blob/master/debian/changelog">Full Cinnamon changelog</a>). Bug fixes: keyboard navigation in the Scale and Expo view; GWL app reloading; themes will show up in the theme menu, even if they don't have GTK 2 support; app switcher reverse mouse scroll.</span>" More information is provided in the distribution's <a href="https://ubuntucinnamon.org/ubuntu-cinnamon-23-04-lunar-lobster-released/">release announcement</a> and in the <a href="https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910">release notes</a>. <a href="https://ubuntucinnamon.org/download/">Download</a>: <a href="https://cdimage.ubuntu.com/ubuntucinnamon/releases/23.04/release/ubuntucinnamon-23.04-desktop-amd64.iso">ubuntucinnamon-23.04-desktop-amd64.iso</a> (4,393MB, <a href="https://cdimage.ubuntu.com/ubuntucinnamon/releases/23.04/release/SHA256SUMS">SHA256</a>, <a href="https://cdimage.ubuntu.com/ubuntucinnamon/releases/23.04/release/SHA256SUMS.gpg">signature</a>, <a href="https://cdimage.ubuntu.com/ubuntucinnamon/releases/23.04/release/ubuntucinnamon-23.04-desktop-amd64.iso.torrent">torrent</a>, <a href="table.php?distribution=ubuntucinnamon&pkglist=true&version=23.04#pkglist">pkglist</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate"><font style="color: #FF0000">2023-04-20</font></td>
+        <td class="NewsHeadline"><font style="color: #FF0000">NEW</font> &bull; <a name="11819"></a><a href="11819">Distribution Release: Ubuntu Budgie 23.04</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="ubuntubudgie"><img src="images/yvzhuwbpy/ubuntubudgie.png" border="0" title="Ubuntu Budgie" align="middle" /></a>
+<br><br><a href="images/slinks/ubuntubudgie.png"><img src="images/slinks/ubuntubudgie-small.png" border=0 title"Ubuntu Budgie" align="center" width=150 height=93></a>
+<br /><a href="dwres.php?resource=ratings&distro=ubuntubudgie">Rate this project</a>
+</td>
+</td>
+        <td class="NewsText" style="font-size: 15px">The <a href="ubuntubudgie">Ubuntu Budgie</a> team have announced the availablity of a new release, version 23.04, which will be supported through to January 2024. The new reelase features software from the GNOME 44 sack, version 6.2 of the Linux kernel, and Budgie 10.7.1: "<span class="Quote">This is a standard release supported for 9 months packed full of all sorts of new capabilities. If you want a well tested and longer term support then our 22.04.2 LTS version is supported for 3 years. New with this release is a full backport of all the budgie components for our 22.04 LTS user community. We warmly recommend this combination - great stability with the very latest 'everything budgie'. The new release has many new core updates as well as the latest version of budgie itself: The kernel is v6.2; GNOME 44 stack with mutter 12; budgie-desktop is 10.7.1; enhanced hotcorner capabilities with edge support; superb and intuitive tiling support using either/both mouse and keyboard.</span>" Further information is provided in the project's <a href="https://ubuntubudgie.org/2023/04/ubuntu-budgie-23-04-released/">release announcement</a> and in the <a href="https://discourse.ubuntu.com/t/lobster-lunar-release-notes">release notes</a>. <a href="https://ubuntubudgie.org/downloads/">Download (SHA256)</a>: <a href="https://cdimage.ubuntu.com/ubuntu-budgie/releases/23.04/release/ubuntu-budgie-23.04-desktop-amd64.iso">ubuntu-budgie-23.04-desktop-amd64.iso</a> (3,225MB, <a href="https://cdimage.ubuntu.com/ubuntu-budgie/releases/23.04/release/ubuntu-budgie-23.04-desktop-amd64.iso.torrent">torrent</a>, <a href="table.php?distribution=ubuntubudgie&pkglist=true&version=23.04#pkglist">pkglist</a>).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+<td class="News1">
+    <table class="News">
+      <tr>
+        <td class="NewsDate">Sponsored Listing</td>
+        <td class="NewsHeadline"><a href="table.php?distribution=3cx&ver=pbx">Featured Distribution: 3CX Phone System</a></td>
+      </tr>
+      <tr>
+<td class="NewsLogo"><a href="table.php?distribution=3cx&ver=pbx"><img src="images/yvzhuwbpy/3cx.png" border="0" title="3CX Phone System" align="middle" /></a>
+<br><br><a href="images/slinks/3cx.png"><img src="images/slinks/3cx-small.png" border=0 title"3CX Phone System" align="center" width=150 height=92></a></td>
+        <td class="NewsText" style="font-size: 15px"><a href="table.php?distribution=3cx&ver=pbx">3CX Phone System</a> is a specialist, Debian-based Linux distribution designed to run a complete unified communications platform. The 3CX client, included in the distribution, can also be installed separately on most hardware as well as the cloud. It provides a complete open standards-based IP PBX and phone system that works with popular SIP trunks and IP phones. It will automatically configure all supported peripherals and it also comes with clients for Windows, OS X, iOS and Android. The ISO image includes a free license for the 3CX PBX edition. The ISO image contains the standard Debian installer which installs a minimal system with the nginx web server, PostgreSQL database, iptables firewall and Secure Shell. Options not relevant to 3CX have been removed from the distribution. Download the installation ISO image from here: <a href="https://downloads-global.3cx.com/downloads/debian10iso/debian-amd64-netinst-3cx.iso">debian-amd64-netinst-3cx.iso</a> (378MB).</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+      </td>
+      <td style="width: 20%; vertical-align: top; border: none">
+
+<table class="News">
+  <tr>
+    <th class="Invert">3CX</th>
+  </tr>
+  <tr>
+    <td class="News" style="text-align: center"><a href="https://www.3cx.com/startup/?src=distrowatch"><img src="images/k/bgmsaocc" border="0" alt="Get 3CX StartUP today absolutely FREE"></a><br /><br />
+    Free and easy-to-use <a href="https://www.3cx.com/pbx/hosted/?src=distrowatch">hosted phone system</a><br /><br />
+    </td>
+  </tr>
+</table><br>
+      <table class="News" style="direction: ltr">
+        <tr>
+          <th colspan="3" class="Invert">Page Hit Ranking</th>
+        </tr>
+        <tr>
+          <td colspan="3" class="News">
+            <form style="height: 50%; text-align: center" name="Dataspan" action="index.php?dataspan=" method="GET">
+               <b>&nbsp;Data span:</b><br>
+               <select name="dataspan">
+               <option value="2002">Year 2002</option><br>
+               <option value="2003">Year 2003</option><br>
+               <option value="2004">Year 2004</option><br>
+               <option value="2005">Year 2005</option><br>
+               <option value="2006">Year 2006</option><br>
+               <option value="2007">Year 2007</option><br>
+               <option value="2008">Year 2008</option><br>
+               <option value="2009">Year 2009</option><br>
+               <option value="2010">Year 2010</option><br>
+               <option value="2011">Year 2011</option><br>
+               <option value="2012">Year 2012</option><br>
+               <option value="2013">Year 2013</option><br>
+               <option value="2014">Year 2014</option><br>
+               <option value="2015">Year 2015</option><br>
+               <option value="2016">Year 2016</option><br>
+               <option value="2017">Year 2017</option><br>
+               <option value="2018">Year 2018</option><br>
+               <option value="2019">Year 2019</option><br>
+               <option value="2020">Year 2020</option><br>
+               <option value="2021">Year 2021</option><br>
+               <option value="2022">Year 2022</option><br>
+               <option value="52">Last 12 months</option><br>
+               <option selected value="26">Last 6 months</option><br>
+               <option value="13">Last 3 months</option><br>
+               <option value="4">Last 30 days</option><br>
+               <option value="1">Last 7 days</option><br>
+               <option value="score">Average Rating</option><br>
+               <option value="votes">Most Ratings</option><br>
+               <option value="trending-52">Trending past 12 months</option><br>
+               <option value="trending-26">Trending past 6 months</option><br>
+               <option value="trending-13">Trending past 3 months</option><br>
+               <option value="trending-4">Trending past 30 days</option><br>
+               <option value="trending-1">Trending past 7 days</option><br>
+
+               </select>
+               <input type="submit" value="Go">
+             </form>
+          </td>
+        </tr>
+        <tr>
+          <th class="News" style="width: 5%">Rank</th>
+          <th class="News" style="width: 70%">Distribution</th>
+          <th class="News" style="width: 25%" title="Hits Per Day">HPD*</th>
+        </tr>
+        <tr>
+          <th class="phr1">1</th>
+          <td class="phr2"><a href="mx">MX Linux</a></td>
+          <td class="phr3" title="Yesterday: 2829">2829<img src="images/other/alevel.png" alt="=" title="Yesterday: 2829"></td>
+        </tr>
+        <tr>
+          <th class="phr1">2</th>
+          <td class="phr2"><a href="endeavour">EndeavourOS</a></td>
+          <td class="phr3" title="Yesterday: 2378">2378<img src="images/other/alevel.png" alt="=" title="Yesterday: 2378"></td>
+        </tr>
+        <tr>
+          <th class="phr1">3</th>
+          <td class="phr2"><a href="mint">Mint</a></td>
+          <td class="phr3" title="Yesterday: 2044">2045<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 2044"></td>
+        </tr>
+        <tr>
+          <th class="phr1">4</th>
+          <td class="phr2"><a href="manjaro">Manjaro</a></td>
+          <td class="phr3" title="Yesterday: 1516">1521<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 1516"></td>
+        </tr>
+        <tr>
+          <th class="phr1">5</th>
+          <td class="phr2"><a href="fedora">Fedora</a></td>
+          <td class="phr3" title="Yesterday: 1239">1241<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 1239"></td>
+        </tr>
+        <tr>
+          <th class="phr1">6</th>
+          <td class="phr2"><a href="popos">Pop!_OS</a></td>
+          <td class="phr3" title="Yesterday: 1218">1217<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 1218"></td>
+        </tr>
+        <tr>
+          <th class="phr1">7</th>
+          <td class="phr2"><a href="ubuntu">Ubuntu</a></td>
+          <td class="phr3" title="Yesterday: 1139">1139<img src="images/other/alevel.png" alt="=" title="Yesterday: 1139"></td>
+        </tr>
+        <tr>
+          <th class="phr1">8</th>
+          <td class="phr2"><a href="debian">Debian</a></td>
+          <td class="phr3" title="Yesterday: 1083">1083<img src="images/other/alevel.png" alt="=" title="Yesterday: 1083"></td>
+        </tr>
+        <tr>
+          <th class="phr1">9</th>
+          <td class="phr2"><a href="lite">Lite</a></td>
+          <td class="phr3" title="Yesterday: 796">795<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 796"></td>
+        </tr>
+        <tr>
+          <th class="phr1">10</th>
+          <td class="phr2"><a href="opensuse">openSUSE</a></td>
+          <td class="phr3" title="Yesterday: 711">711<img src="images/other/alevel.png" alt="=" title="Yesterday: 711"></td>
+        </tr>
+        <tr>
+          <th class="phr1">11</th>
+          <td class="phr2"><a href="zorin">Zorin</a></td>
+          <td class="phr3" title="Yesterday: 696">696<img src="images/other/alevel.png" alt="=" title="Yesterday: 696"></td>
+        </tr>
+        <tr>
+          <th class="phr1">12</th>
+          <td class="phr2"><a href="garuda">Garuda</a></td>
+          <td class="phr3" title="Yesterday: 681">679<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 681"></td>
+        </tr>
+        <tr>
+          <th class="phr1">13</th>
+          <td class="phr2"><a href="elementary">elementary</a></td>
+          <td class="phr3" title="Yesterday: 633">632<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 633"></td>
+        </tr>
+        <tr>
+          <th class="phr1">14</th>
+          <td class="phr2"><a href="kdeneon">KDE neon</a></td>
+          <td class="phr3" title="Yesterday: 600">599<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 600"></td>
+        </tr>
+        <tr>
+          <th class="phr1">15</th>
+          <td class="phr2"><a href="antix">antiX</a></td>
+          <td class="phr3" title="Yesterday: 495">493<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 495"></td>
+        </tr>
+        <tr>
+          <th class="phr1">16</th>
+          <td class="phr2"><a href="alma">AlmaLinux</a></td>
+          <td class="phr3" title="Yesterday: 476">477<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 476"></td>
+        </tr>
+        <tr>
+          <th class="phr1">17</th>
+          <td class="phr2"><a href="kali">Kali</a></td>
+          <td class="phr3" title="Yesterday: 454">454<img src="images/other/alevel.png" alt="=" title="Yesterday: 454"></td>
+        </tr>
+        <tr>
+          <th class="phr1">18</th>
+          <td class="phr2"><a href="pclinuxos">PCLinuxOS</a></td>
+          <td class="phr3" title="Yesterday: 442">442<img src="images/other/alevel.png" alt="=" title="Yesterday: 442"></td>
+        </tr>
+        <tr>
+          <th class="phr1">19</th>
+          <td class="phr2"><a href="puppy">Puppy</a></td>
+          <td class="phr3" title="Yesterday: 440">440<img src="images/other/alevel.png" alt="=" title="Yesterday: 440"></td>
+        </tr>
+        <tr>
+          <th class="phr1">20</th>
+          <td class="phr2"><a href="arco">ArcoLinux</a></td>
+          <td class="phr3" title="Yesterday: 421">418<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 421"></td>
+        </tr>
+        <tr>
+          <th class="phr1">21</th>
+          <td class="phr2"><a href="easyos">EasyOS</a></td>
+          <td class="phr3" title="Yesterday: 409">410<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 409"></td>
+        </tr>
+        <tr>
+          <th class="phr1">22</th>
+          <td class="phr2"><a href="freebsd">FreeBSD</a></td>
+          <td class="phr3" title="Yesterday: 403">402<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 403"></td>
+        </tr>
+        <tr>
+          <th class="phr1">23</th>
+          <td class="phr2"><a href="sparky">SparkyLinux</a></td>
+          <td class="phr3" title="Yesterday: 394">394<img src="images/other/alevel.png" alt="=" title="Yesterday: 394"></td>
+        </tr>
+        <tr>
+          <th class="phr1">24</th>
+          <td class="phr2"><a href="alpine">Alpine</a></td>
+          <td class="phr3" title="Yesterday: 349">350<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 349"></td>
+        </tr>
+        <tr>
+          <th class="phr1">25</th>
+          <td class="phr2"><a href="mageia">Mageia</a></td>
+          <td class="phr3" title="Yesterday: 321">321<img src="images/other/alevel.png" alt="=" title="Yesterday: 321"></td>
+        </tr>
+        <tr>
+          <th class="phr1">26</th>
+          <td class="phr2"><a href="bluestar">Bluestar</a></td>
+          <td class="phr3" title="Yesterday: 307">310<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 307"></td>
+        </tr>
+        <tr>
+          <th class="phr1">27</th>
+          <td class="phr2"><a href="q4os">Q4OS</a></td>
+          <td class="phr3" title="Yesterday: 309">309<img src="images/other/alevel.png" alt="=" title="Yesterday: 309"></td>
+        </tr>
+        <tr>
+          <th class="phr1">28</th>
+          <td class="phr2"><a href="peppermint">Peppermint</a></td>
+          <td class="phr3" title="Yesterday: 297">297<img src="images/other/alevel.png" alt="=" title="Yesterday: 297"></td>
+        </tr>
+        <tr>
+          <th class="phr1">29</th>
+          <td class="phr2"><a href="kubuntu">Kubuntu</a></td>
+          <td class="phr3" title="Yesterday: 295">294<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 295"></td>
+        </tr>
+        <tr>
+          <th class="phr1">30</th>
+          <td class="phr2"><a href="gnoppix">Gnoppix</a></td>
+          <td class="phr3" title="Yesterday: 281">282<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 281"></td>
+        </tr>
+        <tr>
+          <th class="phr1">31</th>
+          <td class="phr2"><a href="nixos">NixOS</a></td>
+          <td class="phr3" title="Yesterday: 280">281<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 280"></td>
+        </tr>
+        <tr>
+          <th class="phr1">32</th>
+          <td class="phr2"><a href="linuxfx">Linuxfx</a></td>
+          <td class="phr3" title="Yesterday: 278">278<img src="images/other/alevel.png" alt="=" title="Yesterday: 278"></td>
+        </tr>
+        <tr>
+          <th class="phr1">33</th>
+          <td class="phr2"><a href="tails">Tails</a></td>
+          <td class="phr3" title="Yesterday: 277">277<img src="images/other/alevel.png" alt="=" title="Yesterday: 277"></td>
+        </tr>
+        <tr>
+          <th class="phr1">34</th>
+          <td class="phr2"><a href="nitrux">Nitrux</a></td>
+          <td class="phr3" title="Yesterday: 276">276<img src="images/other/alevel.png" alt="=" title="Yesterday: 276"></td>
+        </tr>
+        <tr>
+          <th class="phr1">35</th>
+          <td class="phr2"><a href="smartos">SmartOS</a></td>
+          <td class="phr3" title="Yesterday: 276">276<img src="images/other/alevel.png" alt="=" title="Yesterday: 276"></td>
+        </tr>
+        <tr>
+          <th class="phr1">36</th>
+          <td class="phr2"><a href="lubuntu">Lubuntu</a></td>
+          <td class="phr3" title="Yesterday: 273">273<img src="images/other/alevel.png" alt="=" title="Yesterday: 273"></td>
+        </tr>
+        <tr>
+          <th class="phr1">37</th>
+          <td class="phr2"><a href="slackware">Slackware</a></td>
+          <td class="phr3" title="Yesterday: 265">264<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 265"></td>
+        </tr>
+        <tr>
+          <th class="phr1">38</th>
+          <td class="phr2"><a href="archcraft">Archcraft</a></td>
+          <td class="phr3" title="Yesterday: 261">261<img src="images/other/alevel.png" alt="=" title="Yesterday: 261"></td>
+        </tr>
+        <tr>
+          <th class="phr1">39</th>
+          <td class="phr2"><a href="parrot">Parrot</a></td>
+          <td class="phr3" title="Yesterday: 257">257<img src="images/other/alevel.png" alt="=" title="Yesterday: 257"></td>
+        </tr>
+        <tr>
+          <th class="phr1">40</th>
+          <td class="phr2"><a href="nobara">Nobara</a></td>
+          <td class="phr3" title="Yesterday: 246">247<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 246"></td>
+        </tr>
+        <tr>
+          <th class="phr1">41</th>
+          <td class="phr2"><a href="vanilla">Vanilla</a></td>
+          <td class="phr3" title="Yesterday: 245">247<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 245"></td>
+        </tr>
+        <tr>
+          <th class="phr1">42</th>
+          <td class="phr2"><a href="rocky">Rocky</a></td>
+          <td class="phr3" title="Yesterday: 242">242<img src="images/other/alevel.png" alt="=" title="Yesterday: 242"></td>
+        </tr>
+        <tr>
+          <th class="phr1">43</th>
+          <td class="phr2"><a href="openmandriva">OpenMandriva</a></td>
+          <td class="phr3" title="Yesterday: 237">238<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 237"></td>
+        </tr>
+        <tr>
+          <th class="phr1">44</th>
+          <td class="phr2"><a href="regata">Regata</a></td>
+          <td class="phr3" title="Yesterday: 238">238<img src="images/other/alevel.png" alt="=" title="Yesterday: 238"></td>
+        </tr>
+        <tr>
+          <th class="phr1">45</th>
+          <td class="phr2"><a href="mabox">Mabox</a></td>
+          <td class="phr3" title="Yesterday: 229">230<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 229"></td>
+        </tr>
+        <tr>
+          <th class="phr1">46</th>
+          <td class="phr2"><a href="bodhi">Bodhi</a></td>
+          <td class="phr3" title="Yesterday: 228">229<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 228"></td>
+        </tr>
+        <tr>
+          <th class="phr1">47</th>
+          <td class="phr2"><a href="centos">CentOS</a></td>
+          <td class="phr3" title="Yesterday: 227">227<img src="images/other/alevel.png" alt="=" title="Yesterday: 227"></td>
+        </tr>
+        <tr>
+          <th class="phr1">48</th>
+          <td class="phr2"><a href="devuan">Devuan</a></td>
+          <td class="phr3" title="Yesterday: 219">219<img src="images/other/alevel.png" alt="=" title="Yesterday: 219"></td>
+        </tr>
+        <tr>
+          <th class="phr1">49</th>
+          <td class="phr2"><a href="alt">ALT</a></td>
+          <td class="phr3" title="Yesterday: 218">218<img src="images/other/alevel.png" alt="=" title="Yesterday: 218"></td>
+        </tr>
+        <tr>
+          <th class="phr1">50</th>
+          <td class="phr2"><a href="voyager">Voyager</a></td>
+          <td class="phr3" title="Yesterday: 211">214<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 211"></td>
+        </tr>
+        <tr>
+          <th class="phr1">51</th>
+          <td class="phr2"><a href="xubuntu">Xubuntu</a></td>
+          <td class="phr3" title="Yesterday: 211">211<img src="images/other/alevel.png" alt="=" title="Yesterday: 211"></td>
+        </tr>
+        <tr>
+          <th class="phr1">52</th>
+          <td class="phr2"><a href="siduction">siduction</a></td>
+          <td class="phr3" title="Yesterday: 207">207<img src="images/other/alevel.png" alt="=" title="Yesterday: 207"></td>
+        </tr>
+        <tr>
+          <th class="phr1">53</th>
+          <td class="phr2"><a href="gentoo">Gentoo</a></td>
+          <td class="phr3" title="Yesterday: 206">206<img src="images/other/alevel.png" alt="=" title="Yesterday: 206"></td>
+        </tr>
+        <tr>
+          <th class="phr1">54</th>
+          <td class="phr2"><a href="pureos">PureOS</a></td>
+          <td class="phr3" title="Yesterday: 198">198<img src="images/other/alevel.png" alt="=" title="Yesterday: 198"></td>
+        </tr>
+        <tr>
+          <th class="phr1">55</th>
+          <td class="phr2"><a href="deepin">deepin</a></td>
+          <td class="phr3" title="Yesterday: 195">195<img src="images/other/alevel.png" alt="=" title="Yesterday: 195"></td>
+        </tr>
+        <tr>
+          <th class="phr1">56</th>
+          <td class="phr2"><a href="kaos">KaOS</a></td>
+          <td class="phr3" title="Yesterday: 194">195<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 194"></td>
+        </tr>
+        <tr>
+          <th class="phr1">57</th>
+          <td class="phr2"><a href="truenas">TrueNAS</a></td>
+          <td class="phr3" title="Yesterday: 187">188<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 187"></td>
+        </tr>
+        <tr>
+          <th class="phr1">58</th>
+          <td class="phr2"><a href="haiku">Haiku</a></td>
+          <td class="phr3" title="Yesterday: 183">184<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 183"></td>
+        </tr>
+        <tr>
+          <th class="phr1">59</th>
+          <td class="phr2"><a href="redhat">Red Hat</a></td>
+          <td class="phr3" title="Yesterday: 184">184<img src="images/other/alevel.png" alt="=" title="Yesterday: 184"></td>
+        </tr>
+        <tr>
+          <th class="phr1">60</th>
+          <td class="phr2"><a href="qubes">Qubes</a></td>
+          <td class="phr3" title="Yesterday: 180">180<img src="images/other/alevel.png" alt="=" title="Yesterday: 180"></td>
+        </tr>
+        <tr>
+          <th class="phr1">61</th>
+          <td class="phr2"><a href="arch">Arch</a></td>
+          <td class="phr3" title="Yesterday: 179">179<img src="images/other/alevel.png" alt="=" title="Yesterday: 179"></td>
+        </tr>
+        <tr>
+          <th class="phr1">62</th>
+          <td class="phr2"><a href="avlinux">AV Linux</a></td>
+          <td class="phr3" title="Yesterday: 177">177<img src="images/other/alevel.png" alt="=" title="Yesterday: 177"></td>
+        </tr>
+        <tr>
+          <th class="phr1">63</th>
+          <td class="phr2"><a href="4mlinux">4MLinux</a></td>
+          <td class="phr3" title="Yesterday: 180">176<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 180"></td>
+        </tr>
+        <tr>
+          <th class="phr1">64</th>
+          <td class="phr2"><a href="bunsenlabs">BunsenLabs</a></td>
+          <td class="phr3" title="Yesterday: 176">176<img src="images/other/alevel.png" alt="=" title="Yesterday: 176"></td>
+        </tr>
+        <tr>
+          <th class="phr1">65</th>
+          <td class="phr2"><a href="eurolinux">EuroLinux</a></td>
+          <td class="phr3" title="Yesterday: 173">173<img src="images/other/alevel.png" alt="=" title="Yesterday: 173"></td>
+        </tr>
+        <tr>
+          <th class="phr1">66</th>
+          <td class="phr2"><a href="wattos">wattOS</a></td>
+          <td class="phr3" title="Yesterday: 171">172<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 171"></td>
+        </tr>
+        <tr>
+          <th class="phr1">67</th>
+          <td class="phr2"><a href="tinycore">Tiny Core</a></td>
+          <td class="phr3" title="Yesterday: 171">171<img src="images/other/alevel.png" alt="=" title="Yesterday: 171"></td>
+        </tr>
+        <tr>
+          <th class="phr1">68</th>
+          <td class="phr2"><a href="rebornos">RebornOS</a></td>
+          <td class="phr3" title="Yesterday: 170">170<img src="images/other/alevel.png" alt="=" title="Yesterday: 170"></td>
+        </tr>
+        <tr>
+          <th class="phr1">69</th>
+          <td class="phr2"><a href="archlabs">ArchLabs</a></td>
+          <td class="phr3" title="Yesterday: 167">167<img src="images/other/alevel.png" alt="=" title="Yesterday: 167"></td>
+        </tr>
+        <tr>
+          <th class="phr1">70</th>
+          <td class="phr2"><a href="salix">Salix</a></td>
+          <td class="phr3" title="Yesterday: 166">166<img src="images/other/alevel.png" alt="=" title="Yesterday: 166"></td>
+        </tr>
+        <tr>
+          <th class="phr1">71</th>
+          <td class="phr2"><a href="nutyx">NuTyX</a></td>
+          <td class="phr3" title="Yesterday: 162">163<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 162"></td>
+        </tr>
+        <tr>
+          <th class="phr1">72</th>
+          <td class="phr2"><a href="makulu">MakuluLinux</a></td>
+          <td class="phr3" title="Yesterday: 162">162<img src="images/other/alevel.png" alt="=" title="Yesterday: 162"></td>
+        </tr>
+        <tr>
+          <th class="phr1">73</th>
+          <td class="phr2"><a href="reactos">ReactOS</a></td>
+          <td class="phr3" title="Yesterday: 162">162<img src="images/other/alevel.png" alt="=" title="Yesterday: 162"></td>
+        </tr>
+        <tr>
+          <th class="phr1">74</th>
+          <td class="phr2"><a href="cachyos">CachyOS</a></td>
+          <td class="phr3" title="Yesterday: 153">161<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 153"></td>
+        </tr>
+        <tr>
+          <th class="phr1">75</th>
+          <td class="phr2"><a href="endless">Endless</a></td>
+          <td class="phr3" title="Yesterday: 158">158<img src="images/other/alevel.png" alt="=" title="Yesterday: 158"></td>
+        </tr>
+        <tr>
+          <th class="phr1">76</th>
+          <td class="phr2"><a href="kodachi">Kodachi</a></td>
+          <td class="phr3" title="Yesterday: 157">157<img src="images/other/alevel.png" alt="=" title="Yesterday: 157"></td>
+        </tr>
+        <tr>
+          <th class="phr1">77</th>
+          <td class="phr2"><a href="slax">Slax</a></td>
+          <td class="phr3" title="Yesterday: 157">157<img src="images/other/alevel.png" alt="=" title="Yesterday: 157"></td>
+        </tr>
+        <tr>
+          <th class="phr1">78</th>
+          <td class="phr2"><a href="ubuntumate">Ubuntu MATE</a></td>
+          <td class="phr3" title="Yesterday: 158">157<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 158"></td>
+        </tr>
+        <tr>
+          <th class="phr1">79</th>
+          <td class="phr2"><a href="peropesis">Peropesis</a></td>
+          <td class="phr3" title="Yesterday: 167">156<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 167"></td>
+        </tr>
+        <tr>
+          <th class="phr1">80</th>
+          <td class="phr2"><a href="xero">XeroLinux</a></td>
+          <td class="phr3" title="Yesterday: 154">154<img src="images/other/alevel.png" alt="=" title="Yesterday: 154"></td>
+        </tr>
+        <tr>
+          <th class="phr1">81</th>
+          <td class="phr2"><a href="dragonflybsd">DragonFly</a></td>
+          <td class="phr3" title="Yesterday: 153">153<img src="images/other/alevel.png" alt="=" title="Yesterday: 153"></td>
+        </tr>
+        <tr>
+          <th class="phr1">82</th>
+          <td class="phr2"><a href="lxle">LXLE</a></td>
+          <td class="phr3" title="Yesterday: 152">152<img src="images/other/alevel.png" alt="=" title="Yesterday: 152"></td>
+        </tr>
+        <tr>
+          <th class="phr1">83</th>
+          <td class="phr2"><a href="clear">Clear</a></td>
+          <td class="phr3" title="Yesterday: 151">151<img src="images/other/alevel.png" alt="=" title="Yesterday: 151"></td>
+        </tr>
+        <tr>
+          <th class="phr1">84</th>
+          <td class="phr2"><a href="neptune">Neptune</a></td>
+          <td class="phr3" title="Yesterday: 149">150<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 149"></td>
+        </tr>
+        <tr>
+          <th class="phr1">85</th>
+          <td class="phr2"><a href="murena">Murena</a></td>
+          <td class="phr3" title="Yesterday: 149">149<img src="images/other/alevel.png" alt="=" title="Yesterday: 149"></td>
+        </tr>
+        <tr>
+          <th class="phr1">86</th>
+          <td class="phr2"><a href="extix">ExTiX</a></td>
+          <td class="phr3" title="Yesterday: 147">147<img src="images/other/alevel.png" alt="=" title="Yesterday: 147"></td>
+        </tr>
+        <tr>
+          <th class="phr1">87</th>
+          <td class="phr2"><a href="calculate">Calculate</a></td>
+          <td class="phr3" title="Yesterday: 145">146<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 145"></td>
+        </tr>
+        <tr>
+          <th class="phr1">88</th>
+          <td class="phr2"><a href="ghostbsd">GhostBSD</a></td>
+          <td class="phr3" title="Yesterday: 145">145<img src="images/other/alevel.png" alt="=" title="Yesterday: 145"></td>
+        </tr>
+        <tr>
+          <th class="phr1">89</th>
+          <td class="phr2"><a href="openbsd">OpenBSD</a></td>
+          <td class="phr3" title="Yesterday: 146">145<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 146"></td>
+        </tr>
+        <tr>
+          <th class="phr1">90</th>
+          <td class="phr2"><a href="ubuntustudio">Ubuntu Studio</a></td>
+          <td class="phr3" title="Yesterday: 145">144<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 145"></td>
+        </tr>
+        <tr>
+          <th class="phr1">91</th>
+          <td class="phr2"><a href="archman">Archman</a></td>
+          <td class="phr3" title="Yesterday: 143">143<img src="images/other/alevel.png" alt="=" title="Yesterday: 143"></td>
+        </tr>
+        <tr>
+          <th class="phr1">92</th>
+          <td class="phr2"><a href="rosa">ROSA</a></td>
+          <td class="phr3" title="Yesterday: 143">143<img src="images/other/alevel.png" alt="=" title="Yesterday: 143"></td>
+        </tr>
+        <tr>
+          <th class="phr1">93</th>
+          <td class="phr2"><a href="tuxedo">TUXEDO</a></td>
+          <td class="phr3" title="Yesterday: 141">143<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 141"></td>
+        </tr>
+        <tr>
+          <th class="phr1">94</th>
+          <td class="phr2"><a href="absolute">Absolute</a></td>
+          <td class="phr3" title="Yesterday: 142">142<img src="images/other/alevel.png" alt="=" title="Yesterday: 142"></td>
+        </tr>
+        <tr>
+          <th class="phr1">95</th>
+          <td class="phr2"><a href="ubuntubudgie">Ubuntu Budgie</a></td>
+          <td class="phr3" title="Yesterday: 143">141<img src="images/other/adown.png" alt="&lt;" title="Yesterday: 143"></td>
+        </tr>
+        <tr>
+          <th class="phr1">96</th>
+          <td class="phr2"><a href="ferenos">Feren</a></td>
+          <td class="phr3" title="Yesterday: 140">140<img src="images/other/alevel.png" alt="=" title="Yesterday: 140"></td>
+        </tr>
+        <tr>
+          <th class="phr1">97</th>
+          <td class="phr2"><a href="oracle">Oracle</a></td>
+          <td class="phr3" title="Yesterday: 136">137<img src="images/other/aup.png" alt="&gt;" title="Yesterday: 136"></td>
+        </tr>
+        <tr>
+          <th class="phr1">98</th>
+          <td class="phr2"><a href="kaisen">Kaisen</a></td>
+          <td class="phr3" title="Yesterday: 136">136<img src="images/other/alevel.png" alt="=" title="Yesterday: 136"></td>
+        </tr>
+        <tr>
+          <th class="phr1">99</th>
+          <td class="phr2"><a href="spiral">Spiral</a></td>
+          <td class="phr3" title="Yesterday: 136">136<img src="images/other/alevel.png" alt="=" title="Yesterday: 136"></td>
+        </tr>
+        <tr>
+          <th class="phr1">100</th>
+          <td class="phr2"><a href="gecko">Gecko</a></td>
+          <td class="phr3" title="Yesterday: 135">135<img src="images/other/alevel.png" alt="=" title="Yesterday: 135"></td>
+        </tr>
+      </table>
+      <table class="News">
+        <tr>
+        <td class="News" style="text-align: center">*<b>H.P.D</b> = hits per day<br>Updated daily<br><a href="popularity">More statistics...</a></td>        </tr>
+<!--
+        <tr>
+          <td class="News" style="text-align: center"><a href="http://linuxcounter.net/">Count your Linux Box</a></td>
+        </tr>
+-->
+      </table><br />
+<table width="100%">
+  <tr>
+    <th class="Invert">Sidebar Sponsor</th>
+  </tr>
+  <tr>
+    <td class="News" style="text-align: center; color: silver"><a href="https://pbxinaflash.com/community/pages/download-pbx-in-a-flash-5/?utm_source=Distrowatch&utm_campaign=piaf%20banner"><img border="0" src="images/k/murnerf" alt="Free PBX licence key for 1 year"></a></td>
+  </tr>
+</table><br>
+<table class="News">
+  <tr>
+    <td colspan="2" class="Invert">3CX Links</td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.de/ip-telefonanlage/">IP-Telefonanlage</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.nl/ip-telefooncentrale/">IP-telefooncentrale</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.ru/ip-pbx/">IP мини-АТС</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.it/centralino/">Centralino</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.fr/pabx/">PABX</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.es/centralita-telefonica/">Central Telefónica</a></td>
+  </tr>
+</table><br>
+<table class="News">
+  <tr>
+    <td colspan="2" class="Invert">3CX FAQs</td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/fxs-fxo/">What is FXS and FXO?</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/codecs/">What different types of codecs are there?</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/voip-definitions/">VoIP Definitions</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/rtcp/">What is RTCP?</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/sip-responses/">A list of the most common SIP Responses</a></td>
+  </tr>
+  <tr>
+    <th class="News"><img src="images/other/3cx_arrow.png"></td>
+    <td class="News"><a href="https://www.3cx.com/pbx/foip/">What is FoIP</a></td>
+  </tr>
+</table><br>
+</td></table>
+<br /><div id = "mnet_billboard-970x250"></div>
+<hr><table width="100%" border="0">  <tr><td style="width: 100%; text-align: center; border: 0px">Copyright (C) 2001 - 2023 Atea Ataroa Limited. All rights reserved. All trademarks are the property of their respective owners. <a href="dwres.php?resource=privacy">Privacy policy</a>. <a href="#" onclick="if(window.__lxG__consent__ !== undefined) {window.__lxG__consent__.showConsent()} else {alert('This function only for users from European Economic Area (EEA)')}; return false">Change privacy settings</a>.<br />DistroWatch.com is hosted at Copenhagen.<br /><br />Contact, corrections and suggestions: <a href="mailto:&#100;&#105;&#115;&#116;&#114;&#111;&#64;&#100;&#105;&#115;&#116;&#114;&#111;&#119;&#97;&#116;&#99;&#104;&#46;&#99;&#111;&#109;">Jesse Smith</a><br />
+Tips: <img src="images/other/bitcoin16.png" border="0" title="Bitcoin" valign="top" /> bc1qtede6f7adcce4kjpgx0e5j68wwgtdxrek2qvc4 <br> <img src="images/other/monero16.png" border="0" title="Monero" valign="top" /> 86fA3qPTeQtNb2k1vLwEQaAp3XxkvvvXt69gSG5LGunXXikK9koPWZaRQgfFPBPWhMgXjPjccy9LA9xRFchPWQAnPvxh5Le <br /> <a href="https://www.paypal.me/distrow">PayPal.me/distrow</a> &bull; <a href="https://www.patreon.com/distrowatch">Patreon.com/distrowatch</a>    </td>
+  </tr>
+</table><br />
+<br /><br /><br /><br /><br />
+</body>
+</html>
